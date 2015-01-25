@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="950px" height="100px" viewBox="0 0 950 100" enable-background="new 0 0 950 100" xml:space="preserve">
+<filter  width="140%" height="130%" filterUnits="objectBoundingBox" x="-15%" y="-15%" id="AI_Sombra_2">
+	<feGaussianBlur  stdDeviation="6" in="SourceAlpha" result="blur"></feGaussianBlur>
+	<feOffset  dx="8" dy="8" in="blur" result="offsetBlurredAlpha"></feOffset>
+	<feMerge>
+		<feMergeNode  in="offsetBlurredAlpha"></feMergeNode>
+		<feMergeNode  in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  id="AI_DesenfoqueGaussiano_7">
+	<feGaussianBlur  stdDeviation="7"></feGaussianBlur>
+</filter>
+<rect x="-7.876" y="223.349" fill="#040506" width="954.942" height="100"/>
+<g filter="url(#AI_DesenfoqueGaussiano_7)">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1.7197" y1="50.9658" x2="951.7207" y2="50.9658">
+		<stop  offset="0" style="stop-color:#EFF8F9"/>
+		<stop  offset="0.0912" style="stop-color:#EBF5F9"/>
+		<stop  offset="0.1841" style="stop-color:#E1EFF8"/>
+		<stop  offset="0.2775" style="stop-color:#CEE4F7"/>
+		<stop  offset="0.3086" style="stop-color:#C7DFF6"/>
+		<stop  offset="0.5192" style="stop-color:#312783;stop-opacity:0.6"/>
+		<stop  offset="0.741" style="stop-color:#D0E5F8"/>
+		<stop  offset="1" style="stop-color:#F2F9FB"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M475,0.932C316.093,14.613,157.187,28.294-1.72,41.975h0V101h953.44V41.975
+		C792.814,28.294,633.908,14.613,475,0.932z"/>
+</g>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-305.9419" y1="-144.0078" x2="1022.124" y2="-144.0078">
+	<stop  offset="0" style="stop-color:#6EB8E7"/>
+	<stop  offset="0.0379" style="stop-color:#74BAE8"/>
+	<stop  offset="0.0764" style="stop-color:#83C0EA"/>
+	<stop  offset="0.1154" style="stop-color:#9ACAEE"/>
+	<stop  offset="0.1543" style="stop-color:#B8D8F3"/>
+	<stop  offset="0.172" style="stop-color:#C7DFF6"/>
+	<stop  offset="0.3387" style="stop-color:#312783"/>
+	<stop  offset="0.5215" style="stop-color:#D0E5F8"/>
+	<stop  offset="1" style="stop-color:#36A9E1"/>
+</linearGradient>
+<rect x="-305.942" y="-219.508" fill="url(#SVGID_2_)" width="1328.066" height="151"/>
+<g filter="url(#AI_Sombra_2)">
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-7.7773" y1="279.6699" x2="943.5273" y2="279.6699">
+		<stop  offset="0" style="stop-color:#6EB8E7"/>
+		<stop  offset="0.0379" style="stop-color:#74BAE8"/>
+		<stop  offset="0.0764" style="stop-color:#83C0EA"/>
+		<stop  offset="0.1154" style="stop-color:#9ACAEE"/>
+		<stop  offset="0.1543" style="stop-color:#B8D8F3"/>
+		<stop  offset="0.172" style="stop-color:#C7DFF6"/>
+		<stop  offset="0.3387" style="stop-color:#312783"/>
+		<stop  offset="0.5215" style="stop-color:#D0E5F8"/>
+		<stop  offset="1" style="stop-color:#36A9E1"/>
+	</linearGradient>
+	<path fill="url(#SVGID_3_)" d="M943.527,322.434c-317.102,0-634.203,0-951.305,0c142.87-17.229,285.74-34.456,428.61-51.684
+		c9.898-45.125,84.186-45.125,94.085,0C657.787,287.978,800.657,305.205,943.527,322.434z"/>
+</g>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-305.9424" y1="-272.0078" x2="1022.124" y2="-272.0078">
+	<stop  offset="0" style="stop-color:#6EB8E7"/>
+	<stop  offset="0.0379" style="stop-color:#74BAE8"/>
+	<stop  offset="0.0764" style="stop-color:#83C0EA"/>
+	<stop  offset="0.1154" style="stop-color:#9ACAEE"/>
+	<stop  offset="0.1543" style="stop-color:#B8D8F3"/>
+	<stop  offset="0.172" style="stop-color:#C7DFF6"/>
+	<stop  offset="0.3387" style="stop-color:#312783"/>
+	<stop  offset="0.5215" style="stop-color:#D0E5F8"/>
+	<stop  offset="1" style="stop-color:#36A9E1"/>
+</linearGradient>
+<path fill="url(#SVGID_4_)" d="M1022.124-219.508c-442.688,0-885.378,0-1328.066,0c221.344-35,442.688-70,664.032-105l0,0
+	C579.436-289.508,800.779-254.508,1022.124-219.508z"/>
+<image overflow="visible" width="150" height="150" xlink:href="32564293.png"  transform="matrix(0.4511 0 0 0.4511 447.7363 148.2485)">
+</image>
+<path fill="#303335" d="M707.829,322.434V310.57c0-6.627-5.373-12-12-12H247.192c-6.627,0-12,5.373-12,12v11.863H707.829z"/>
+<g>
+	<g>
+		<polyline fill="none" stroke="#37B8EB" stroke-width="1.9842" stroke-linecap="round" stroke-linejoin="round" points="
+			235.246,308.309 238.56,302.078 235.019,317.19 244.785,298.822 236.726,322.434 249.398,298.6 241.221,322.434 253.893,298.6 
+			245.715,322.433 258.387,298.6 250.21,322.433 262.882,298.6 254.705,322.432 267.376,298.6 259.2,322.432 271.871,298.6 
+			263.694,322.432 276.366,298.6 268.189,322.432 280.86,298.601 272.684,322.432 285.355,298.6 277.179,322.431 289.85,298.601 
+			281.673,322.431 294.344,298.6 286.168,322.431 298.839,298.601 290.663,322.43 303.333,298.6 295.158,322.43 307.828,298.601 
+			299.652,322.43 312.322,298.6 304.147,322.43 316.817,298.6 308.642,322.429 321.312,298.6 313.137,322.429 325.807,298.6 
+			317.631,322.428 330.301,298.601 322.126,322.428 334.796,298.6 326.621,322.428 339.29,298.6 331.116,322.428 343.785,298.6 
+			335.61,322.427 348.279,298.6 340.105,322.427 352.774,298.6 344.6,322.427 357.269,298.6 349.095,322.426 361.764,298.6 
+			353.589,322.426 366.258,298.6 358.084,322.426 370.752,298.6 362.579,322.426 375.247,298.6 367.074,322.425 379.742,298.6 
+			371.568,322.425 384.236,298.6 376.063,322.425 388.731,298.6 380.558,322.424 393.226,298.6 385.053,322.424 397.72,298.601 
+			389.548,322.424 402.215,298.6 394.042,322.424 406.709,298.601 398.537,322.423 411.204,298.6 403.032,322.423 415.699,298.601 
+			407.526,322.422 420.193,298.6 412.021,322.422 424.688,298.601 416.516,322.422 429.183,298.6 421.011,322.422 433.677,298.601 
+			425.506,322.421 438.171,298.6 430,322.421 442.667,298.601 434.495,322.42 447.161,298.601 438.99,322.42 451.655,298.601 
+			443.484,322.42 456.15,298.6 447.979,322.42 460.645,298.601 452.475,322.42 465.139,298.601 456.969,322.419 469.634,298.6 
+			461.464,322.419 474.129,298.6 465.959,322.419 478.623,298.601 470.453,322.418 483.117,298.601 474.948,322.418 487.612,298.6 
+			479.442,322.418 492.107,298.6 483.938,322.418 496.602,298.601 488.433,322.417 501.096,298.6 492.927,322.418 505.591,298.6 
+			497.422,322.417 510.085,298.601 501.917,322.417 514.58,298.601 506.411,322.416 519.074,298.6 510.906,322.416 523.569,298.6 
+			515.401,322.415 528.063,298.6 519.896,322.415 532.559,298.601 524.391,322.414 537.053,298.6 528.886,322.414 541.548,298.6 
+			533.38,322.414 546.042,298.601 537.875,322.414 550.537,298.601 542.369,322.414 555.031,298.6 546.864,322.414 559.526,298.6 
+			551.358,322.413 564.021,298.601 555.854,322.413 568.516,298.601 560.349,322.413 573.01,298.6 564.844,322.412 577.505,298.6 
+			569.338,322.412 581.999,298.601 573.833,322.412 586.494,298.601 578.328,322.411 590.988,298.6 582.823,322.411 
+			595.483,298.601 587.317,322.41 599.978,298.601 591.813,322.41 604.473,298.6 596.307,322.41 608.967,298.6 600.802,322.41 
+			613.461,298.601 605.296,322.41 617.956,298.601 609.791,322.41 622.451,298.6 614.286,322.41 626.946,298.6 618.78,322.409 
+			631.439,298.601 623.275,322.408 635.935,298.6 627.771,322.408 640.43,298.6 632.266,322.408 644.924,298.602 636.759,322.408 
+			649.418,298.601 641.255,322.407 653.913,298.6 645.749,322.406 658.407,298.6 650.244,322.406 662.902,298.601 654.738,322.406 
+			667.396,298.6 659.233,322.406 671.892,298.6 663.729,322.406 676.386,298.6 668.224,322.406 680.881,298.601 672.718,322.405 
+			685.375,298.6 677.212,322.405 689.87,298.6 681.707,322.405 694.364,298.602 686.202,322.404 698.632,299.028 690.696,322.404 
+			702.278,300.622 695.191,322.404 705.242,303.502 699.687,322.403 707.319,308.048 704.182,322.403 707.61,315.955 		"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 309.208 182.0845)" fill="#FFFFFF" font-family="'OCRAExtended'" font-size="16.8192" letter-spacing="3">DIGITAL FLUTE :: WELCOME ::</text>
+</svg>

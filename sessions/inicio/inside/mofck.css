@@ -1,0 +1,74 @@
+html, body {
+		padding:0;
+		margin:0;
+		width:100%;
+		height:100%;
+		background-attachment:fixed;
+		color:#fff;
+		font-family:sans-serif;
+		text-align:center;
+		cursor:pointer;
+	}
+
+	a {color:#eee;}
+
+	#top {padding-top:10em;}
+
+	#bottom {
+		position:fixed;
+		right:0;
+		bottom:0;
+		left:0;
+	}
+
+	#bottom > img {
+		display:block;
+		margin:auto;
+	}
+
+	.hidden {display:none;}
+
+#thing {
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:12px;
+		color:#06C;
+		width:150px;
+		height:150px;
+		border-radius:2px;
+		background-image:url(images/bola.gif);
+	
+}
+#queen{
+	
+	font-family:"Courier New", Courier, monospace;
+	width:960px;
+	height:2148px;
+	font-size:10px;
+	
+}
+a{
+	font-weight:bolder;
+	color:#FFF;
+	font-size:12px;
+}
+#bela,#luana,#rawan,#monica,#lucy,#alice{
+-webkit-animation:myfirst 5s infinite; /* Chrome, Safari, Opera */
+	animation:myfirst 5s  infinite;
+	-webkit-transition: opacity 5s ease-in-out;
+    -moz-transition: opacity 5s ease-in-out;
+    -ms-transition: opacity 5s ease-in-out;
+    -o-transition: opacity 5s ease-in-out;
+     opacity: 1;
+}
+@-webkit-keyframes myfirst
+{
+from {color:#636C6E; }
+to {color:#737D7F; }
+}
+
+/* Standard syntax */
+@keyframes myfirst
+{
+from {color:#636C6E; }
+to {color:#737D7F; }
+}

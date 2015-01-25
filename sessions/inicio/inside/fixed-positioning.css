@@ -1,0 +1,85 @@
+/*
+ * This file is NOT needed in order to use skrollr.
+ * The demo uses it and it may help you as well.
+ */
+
+body{
+	width:100%;
+	height:100%;
+	background-color:#9FAEBF;
+	//background-image:url(images/water.jpg);
+	
+}
+
+#thing {
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:12px;
+		color:#06C;
+		width:150px;
+		height:150px;
+		border-radius:2px;
+		background-image:url(images/bola.gif);
+	
+}
+#queen{
+	font-family:"Courier New", Courier, monospace;
+	width:960px;
+	height:2148px;
+	font-size:1px;
+	
+}
+#bela,#lizzie,#lena,#monica,#lucy{
+-webkit-animation:myfirst 5s infinite; /* Chrome, Safari, Opera */
+	animation:myfirst 5s  infinite;
+	-webkit-transition: opacity 5s ease-in-out;
+    -moz-transition: opacity 5s ease-in-out;
+    -ms-transition: opacity 5s ease-in-out;
+    -o-transition: opacity 5s ease-in-out;
+     opacity: 1;
+}
+@-webkit-keyframes myfirst
+{
+from {color:#575F69;}
+to {color:#4B1E9E;}
+}
+
+/* Standard syntax */
+@keyframes myfirst
+{
+from {color:#575F69;}
+to {color:#4B1E9E;}
+}
+
+
+	
+
+
+.skrollable {
+	/*
+	 * First-level skrollables are positioned relative to window
+	 */
+	position:fixed;
+
+	/*
+	 * Skrollables by default have a z-index of 100 in order to make it easy to position elements in front/back without changing each skrollable
+	 */
+	z-index:100;
+}
+
+.skrollr-mobile .skrollable {
+	position:absolute;
+}
+
+.skrollable .skrollable {
+	/*
+	 * Second-level skrollables are positioned relative their parent skrollable
+	 */
+	position:absolute;
+}
+
+.skrollable .skrollable .skrollable {
+	/*
+	 * Third-level (and below) skrollables are positioned static
+	 */
+	position:static;
+}

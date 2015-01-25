@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#369;
+}
+#header{
+	width:100%;
+	height:60px;
+	background-color:#F90;
+}
+#menu{
+	width:950px;
+	padding-top:5px;
+	margin: 0px auto;
+	color:#000;
+}
+
+#frame{
+	display: none;
+	position:fixed;
+	left:50%;
+	background-color:#000;
+	width:500px;
+	height:500px;
+	margin-left: -250px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:20px;
+}
+#main{
+	width:450px;
+	margin-left:10px;
+}
+#overlay{
+	display:none;
+	width:100%;
+	height:100%;
+	position:fixed;
+	background-color:#CF6;
+	opacity:0.6;
+}
+
+#wraper{
+	width:950px;
+	height:500px;
+	margin: 0px auto;
+}
+#portfolio{
+	list-style-type:none;
+	padding-left:0px;
+}
+#portfolio li{
+	display:inline-block;
+	margin: 10px 5px 10px 5px;
+}
+#portfolio li img{
+	width: 125px;
+	height: 125px;
+}
+#portfolio li img:hover{
+	cursor:pointer;
+}
+#overlay:hover{
+	cursor:pointer;
+}
+#main:hover{
+	cursor:pointer;
+}
+#frame-arrows{
+	position:absolute;
+	width:460px;
+	margin-left:20px;
+}
+#right{
+	float:right;
+}
+#right, #left{
+	cursor:pointer;
+	position:relative;
+	
+}
+
+#description p{
+	font-size:12px;
+	color:black;
+	width:auto;
+	height:20px;
+	background-color:#F90;
+}
+#filter li{
+	display:inline;
+	color:white;
+}
+#filter li:hover{
+	cursor:pointer;
+	color:#FF9;
+}
+#filter li.active{
+	text-decoration:underline;
+	color:#3FF;
+}
