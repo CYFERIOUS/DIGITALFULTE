@@ -137,6 +137,7 @@ Spry.Widget.Accordion.prototype.onPanelTabMouseOut = function(panel)
 
 Spry.Widget.Accordion.prototype.openPanel = function(panel)
 {
+	
 	var panelA = this.currentPanel;
 	var panelB = panel;
 	

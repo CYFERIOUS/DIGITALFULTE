@@ -1,60 +1,64 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://www.digital-flute.com/ns#">
+<!doctype html>
+<html>
 <head>
+<meta charset="utf-8">
 <script src="../js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../js/async.js" type="text/javascript"></script>
+<script src="../js/swap.js" type="text/javascript"></script>
 <script src="../js/translate.js" type="text/javascript"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Information</title>
 <link href="../css/flutest.css" rel="stylesheet" type="text/css" />
+<link href="../css/menu.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
- <div class="boxShow" align="center"><iframe id="spot1" src = ""  width="920" height="450" frameborder="0" scrolling="no"></iframe>back to menu</div>
-  <div align="center">
- <table class="menuInfo" width="920" border="0" align="center" >
+ <div class="boxShow" align="center"><iframe id="spot1" src = ""  width="920" height="450" frameborder="0" scrolling="no"></iframe><a><p><div id="descriptorInfo1"></div></p><p><div id="descriptorInfo2"></div></p><p><div id="descriptorInfo3"></div></p><p> &lt; back to menu</p></a></div>
+  <div class="container">
+
+            <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/vive.jpg" data-infoId="0" name="Info01" width="228" height="120" border="0" id="Info01" /></a></div>
+            <div class="rightMenu"><p>App developed for this software laboratory for mayoralty office.</p>
+          </div>
+          
+          
+            <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/vive.jpg" data-infoId="1" name="Info02" width="228" height="120" border="0" id="Info02" /></a></div>
+            <div class="rightMenu"><p>App prototype developed for this software laboratory for mayoralty office.</p></div>
+ 
           <tr>
-            <td width="228"><a class="btnOk info" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Info01','','images/dgFlte.jpg',1)"><img src="../images/dispre.jpg" name="Info01" width="228" height="120" border="0" id="Info01" /></a></td>
-            <td width="712"><p>Web site developed for this company  about distribution of electrical and electronic merchandise in miami Fl.</p>
-              
-          </tr>
+            <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/alpha.jpg" data-infoId="2" name="Info03" width="228" height="120" border="0" id="Info03" /></a></div>
+            <div class="rightMenu"><p>App prototype developed for alpha male web club</p></div>
      
-          <tr>
-            <td><a class="btnOk info" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Info02','','images/dgFlte.jpg',1)"><img src="../images/ecoprinto.jpg" name="Info02" width="228" height="120" border="0" id="Info02" /></a></td>
-            <td>Web site of big press productions.</td>
-          </tr>
-          <tr>
-            <td><a class="btnOk info" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Info03','','images/dgFlte.jpg',1)"><img src="../images/ecorinoca.jpg" name="Info03" width="228" height="120" border="0" id="Info03" /></a></td>
-            <td>Mark and website developed.</td>
-          </tr>
-          <tr>
-            <td><a  class="btnOk info" onmouseover="MM_swapImage('Info04','','images/dgFlte.jpg',1)" onmouseout="MM_swapImgRestore()"><img src="../images/sdsrender.jpg" name="Info04" width="228" height="120" border="0" id="Info04" /></a></td>
-            <td>Video render made it for security enterprise.</td>
-          </tr>
-          <tr>
-            <td><a class="btnOk info" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Info05','','images/dgFlte.jpg',1)"><img src="../images/sealed.jpg" name="Info05" width="228" height="120" border="0" id="Info05" /></a></td>
-            <td>Multimedia developed for this company in andina pack fest.</td>
-          </tr>
-          <tr>
-            <td><a class="btnOk info" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Info06','','images/dgFlte.jpg',1)"><img src="../images/virtuo.jpg" name="Info06" width="228" height="120" border="0" id="Info06" /></a></td>
-            <td>Multimedia and renders made it for this high tech enterprise.</td>
-          </tr>
-          <tr>
-            <td><a class="btnOk info" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Info07','','images/dgFlte.jpg',1)"><img src="../images/super.jpg" name="Info07" width="228" height="120" border="0" id="Info07" /></a></td>
-            <td>Multimedia made it for this multi-level sells company.</td>
-          </tr>
-          <tr>
-            <td><a class="btnOk info" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Info08','','images/dgFlte.jpg',1)"><img src="../images/eecta.jpg" name="Info08" width="228" height="120" border="0" id="Info08" /></a></td>
-            <td>Multimedia developed for this urban illumination company.</td>
-          </tr>
-          <tr>
-            <td><a class="btnOk info" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Info09','','images/dgFlte.jpg',1)"><img src="../images/caktos.jpg" name="Info09" width="228" height="120" border="0" id="Info09" /></a></td>
-            <td>Mark made it for software app.</td>
-          </tr>
-          <tr>
-            <td><a class="btnOk info" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Info10','','images/dgFlte.jpg',1)"><img src="../images/ferrere.jpg" name="Info15" width="228" height="120" border="0" id="Info10" /></a></td>
-            <td>Mark made it for industrial enterprise.</td>
-          </tr>
-    
-  </table>
+          
+            <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/ecoprinto.jpg" data-infoId="3" name="Info04" width="228" height="120" border="0" id="Info04" /></div>
+            <div class="rightMenu">Web site of big press productions.</div>
+          
+          <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/dispre.jpg" data-infoId="4" name="Info05" width="228" height="120" border="0" id="Info05" /></div>
+            <div class="rightMenu">Web site of electronic and electric devices distribution.</div>
+          
+      
+            <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/ecorinoca.jpg" data-infoId="5" name="Info06" width="228" height="120" border="0" id="Info06" /></div>
+            <div class="rightMenu">Mark and website developed.</div>
+          
+            <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/sdsrender.jpg" data-infoId="6" name="Info07" width="228" height="120" border="0" id="Info07" /></div>
+            <div class="rightMenu">Video render made it for security enterprise.</div>
+         
+            <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/sealed.jpg" data-infoId="7" name="Info08" width="228" height="120" border="0" id="Info08" /></div>
+            <div class="rightMenu">Multimedia developed for this company in andina pack fest.</div>
+            
+            <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/virtuo.jpg" data-infoId="8" name="Info09" width="228" height="120" border="0" id="Info09" /></div>
+            <div class="rightMenu">Multimedia and renders made it for this high tech enterprise.</div>
+          
+          <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/super.jpg" data-infoId="9" name="Info10" width="228" height="120" border="0" id="Info10" /></div>
+            <div class="rightMenu">Multimedia made it for this multi-level sells company.</div>
+          
+          <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/eecta.jpg" data-infoId="10" name="Info11" width="228" height="120" border="0" id="Info11" /></div>
+            <div class="rightMenu">Multimedia developed for this urban illumination company.</div>
+          
+          <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/caktos.jpg" data-infoId="11" name="Info12" width="228" height="120" border="0" id="Info12" /></div>
+            <div class="rightMenu">Mark made it for software app.</div>
+          
+          <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/ferrere.jpg" data-infoId="12" name="Info13" width="228" height="120" border="0" id="Info13" /></div>
+            <div class="rightMenu">Mark made it for industrial enterprise.</div>
+          
    </div>
 </body>
 </html>

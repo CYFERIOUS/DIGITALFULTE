@@ -15,7 +15,7 @@
     <td><div align="center">
       <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
         <tr>
-          <td><a href="http://www.digital-flute.com" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','../../../images/thanks2.jpg',1)"><img src="../../../images/thanks.jpg" name="Image1" width="950" height="709" border="0" id="Image1" /></a></td>
+          <td><a href="http://www.dgflute.com" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','../../../images/thumbnails/thanks2.jpg',1)"><img src="../../../images/thumbnails/thanks.jpg" name="Image1" width="950" height="709" border="0" id="Image1" /></a></td>
         </tr>
       </table>
     </div></td>

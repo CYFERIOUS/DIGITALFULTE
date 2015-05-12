@@ -1,7 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://www.digital-flute.com/ns#">
+<!doctype html>
+<html>
 <head>
-
+<meta charset="utf-8">
 <title>Do::Re::Mi::Fa::Sol::La::Si::</title>
 <!--TITULO MOVEMENT-->
 <script src="js/move.js"></script>
@@ -20,6 +20,8 @@
 
 <link href="css/flutest.css" rel="stylesheet" type="text/css" />
 
+<script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="js/async.js" type="text/javascript"></script>
 <!--ACORDION-->
 <script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
 <link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
@@ -27,18 +29,18 @@
 
 <body>
 <div id="container" align="center">
-
- <iframe src="sessions/inicio/bannerUp/bannerUp.html" width="950" height="100" frameborder="0"></iframe>
 <div id="Accordion1" class="Accordion" tabindex="0">
-  <div class="AccordionPanel">
-    <div class="AccordionPanelTab">HOME</div>
-    <div class="AccordionPanelContent"><iframe id="intro" src="sessions/inicio/inside/alephcolor.html" width="950" height="500" frameborder="0"></iframe></div>
+
+<div class="AccordionPanel">
+    <div class="AccordionPanelspecialTab">DIE ZAUBERFLÖTE</div>
+    <div class="AccordionPanelspecialContent"><iframe id="intro" src="sessions/inicio/inside/alephcolor.html" width="100%" height="700" frameborder="0" ></iframe></div>
   </div>
+  
   <div class="AccordionPanel">
     <div class="AccordionPanelTab">INFORMATION</div>
-    <div class="AccordionPanelContent">
-<?php include("sessions/infoSection.php"); ?></div>
+    <div class="AccordionPanelContent"><?php include("sessions/infoSection.php"); ?></div>
   </div>
+  
   <div class="AccordionPanel">
     <div class="AccordionPanelTab">EDUCATION</div>
     <div class="AccordionPanelContent"><?php include("sessions/learnSection.php"); ?></div>
@@ -48,10 +50,10 @@
     <div class="AccordionPanelTab">ENTERTAINMENT</div>
     <div class="AccordionPanelContent"><?php include("sessions/funnySection.php"); ?></div>
   </div>
-   <div class="AccordionPanel">
+  
+  <div class="AccordionPanel">
     <div class="AccordionPanelTab">CONTACT</div>
-    <div class="AccordionPanelContent">   
-<?php include("sessions/contact.php"); ?></div>
+    <div class="AccordionPanelContent"> <?php include("sessions/contact.php"); ?></div>
   </div>
 </div>
 <?php include("sessions/info.php"); ?>

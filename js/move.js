@@ -13,5 +13,8 @@ return
 }
 setTimeout("titlemove()",220)
 }
-if (document.title)
-titlemove()
+if (document.title){
+titlemove();
+}
+
+
