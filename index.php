@@ -36,19 +36,19 @@
     <div class="AccordionPanelspecialContent"><iframe id="intro" src="sessions/inicio/inside/alephcolor.html" width="100%" height="700" frameborder="0" ></iframe></div>
   </div>
   
-  <div class="AccordionPanel">
+  <div class="AccordionPanel" >
     <div class="AccordionPanelTab">INFORMATION</div>
-    <div class="AccordionPanelContent"><?php include("sessions/infoSection.php"); ?></div>
+    <div class="AccordionPanelContent" align="left"><?php include("sessions/infoSection.php"); ?></div>
   </div>
   
   <div class="AccordionPanel">
     <div class="AccordionPanelTab">EDUCATION</div>
-    <div class="AccordionPanelContent"><?php include("sessions/learnSection.php"); ?></div>
+    <div class="AccordionPanelContent" align="left"><?php include("sessions/learnSection.php"); ?></div>
   </div>
   
   <div class="AccordionPanel">
     <div class="AccordionPanelTab">ENTERTAINMENT</div>
-    <div class="AccordionPanelContent"><?php include("sessions/funnySection.php"); ?></div>
+    <div class="AccordionPanelContent" align="left"><?php include("sessions/funnySection.php"); ?></div>
   </div>
   
   <div class="AccordionPanel">

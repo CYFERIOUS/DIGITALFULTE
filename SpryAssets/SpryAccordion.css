@@ -1,164 +1,203 @@
 @charset "UTF-8";
 
-/* SpryAccordion.css - Revision: Spry Preview Release 1.4 */
+	.Accordion {
+	  outline:none;
+	  overflow: hidden;
+	  background-color: #FFF;
+	  margin: 0px;
+	  float: none;
+	  z-index:1000;
+	}
 
-/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+	.AccordionPanel {
+	  outline:none;
+	  margin: 0px;
+	  padding: 0px;
+	  background-color: #FFFFFF;
+	  z-index: 0;
+	}
 
-/* This is the selector for the main Accordion container. For our default style,
- * we draw borders on the left, right, and bottom. The top border of the Accordion
- * will be rendered by the first AccordionPanelTab which never moves.
- *
- * If you want to constrain the width of the Accordion widget, set a width on
- * the Accordion container. By default, our accordion expands horizontally to fill
- * up available space.
- *
- * The name of the class ("Accordion") used in this selector is not necessary
- * to make the widget function. You can use any class name you want to style the
- * Accordion container.
- */
-.Accordion {
+	.AccordionPanelTab {
+	  outline:none;
+	  background-color: #FFFFFF;
+	  margin: 0px;
+	  cursor: pointer;
+	  -moz-user-select: none;
+	  -khtml-user-select: none;
+	  font-family: Verdana, Arial, Helvetica, sans-serif;
+	  font-Color: #000000;
+	  color: #A5BACC;
+	  width: 950px;
+	  z-index: 2;
+	  font-size: 10px;
+	  border-top-style: solid;
+	  border-bottom-style: solid;
+	  border-top-color: #FFFFFF;
+	  border-right-color: #FFFFFF;
+	  border-bottom-color: #FFFFFF;
+	  border-left-color: #FFFFFF;
+	}
 
-	outline:none;
-	overflow: hidden;
-	background-color: #FFF;
-	margin: 0px;
-	float: none;
-	z-index:1000;
+	.AccordionPanelspecialTab{
+	  outline:none;
+	  background-color: #FFFFFF;
+	  margin: 0px;
+	  cursor: pointer;
+	  -moz-user-select: none;
+	  -khtml-user-select: none;
+	  font-family: Verdana, Arial, Helvetica, sans-serif;
+	  font-Color: #000000;
+	  color: #A5BACC;
+	  width: 100%;
+	  z-index: 2;
+	  font-size: 10px;
+	  border-top-style: solid;
+	  border-bottom-style: solid;
+	  border-top-color: #FFFFFF;
+	  border-right-color: #FFFFFF;
+	  border-bottom-color: #FFFFFF;
+	  border-left-color: #FFFFFF;
+	}
+
+	.AccordionPanelContent {
+	  height: 500px;
+	  width: 950px;
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-size: 12px;
+	  color: #FFFFFF;
+	  overflow: auto;
+	  outline:none;
+	}
+	.AccordionPanelspecialContent{
+	  height: 700px;
+	  width: 100%;
+	  color: #FFFFFF;
+	  overflow: auto;
+	  outline:none;
+	}
+
+	.AccordionPanelOpen .AccordionPanelTab {
+	  outline:none;
+	  background-color: #FFFFFF;
+	}
+
+	.AccordionPanelTabHover {
+	  outline:none;
+	  color: #000066;
+	}
+	.AccordionPanelOpen .AccordionPanelTabHover {
+	  color: #003366;
+	}
+
+	.AccordionFocused .AccordionPanelTab {
+	  outline:none;
+	  background-color: #FFFFFF;
+	}
+
+	.AccordionFocused .AccordionPanelOpen .AccordionPanelTab {
+	  background-color: #FFF;
+	  color: #000;
+	  font-weight: bolder;
+	}
+
+@media (min-device-width : 768px) and (max-device-width : 1024px) {	
+
+	.AccordionPanelTab {
+	  outline:none;
+	  background-color: #FFFFFF;
+	  margin: 0px;
+	  cursor: pointer;
+	  -moz-user-select: none;
+	  -khtml-user-select: none;
+	  font-family: Verdana, Arial, Helvetica, sans-serif;
+	  font-Color: #000000;
+	  color: #A5BACC;
+	  width: 100%;
+	  z-index: 2;
+	  font-size: 10px;
+	  border-top-style: solid;
+	  border-bottom-style: solid;
+	  border-top-color: #FFFFFF;
+	  border-right-color: #FFFFFF;
+	  border-bottom-color: #FFFFFF;
+	  border-left-color: #FFFFFF;
+	}
+	.AccordionPanelContent {
+	  height: 380px;
+	  width: 720px;
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-size: 12px;
+	  color: #FFFFFF;
+	  overflow: auto;
+	  outline:none;
+	}
+	.AccordionPanelspecialContent{
+	  height: 380px;
+	  width: 100%;
+	  color: #FFFFFF;
+	  overflow: auto;
+	  outline:none;
+	}
 }
 
-/* This is the selector for the AccordionPanel container which houses the
- * panel tab and a panel content area. It doesn't render visually, but we
- * make sure that it has zero margin and padding.
- *
- * The name of the class ("AccordionPanel") used in this selector is not necessary
- * to make the widget function. You can use any class name you want to style an
- * accordion panel container.
-*/
-.AccordionPanel {
-	outline:none;
-	margin: 0px;
-	padding: 0px;
-	background-color: #FFFFFF;
-	z-index: 0;
-}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {	
 
-/* This is the selector for the AccordionPanelTab. This container houses
- * the title for the panel. This is also the container that the user clicks
- * on to open a specific panel.
- *
- * The name of the class ("AccordionPanelTab") used in this selector is not necessary
- * to make the widget function. You can use any class name you want to style an
- * accordion panel tab container.
- */
-.AccordionPanelTab {
-	outline:none;
-	background-color: #FFFFFF;
-	margin: 0px;
-	cursor: pointer;
-	-moz-user-select: none;
-	-khtml-user-select: none;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-Color: #000000;
-	color: #A5BACC;
-	width: 950px;
-	z-index: 2;
-	font-size: 10px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-color: #FFFFFF;
-	border-right-color: #FFFFFF;
-	border-bottom-color: #FFFFFF;
-	border-left-color: #FFFFFF;
-}
-
-.AccordionPanelspecialTab{
-	outline:none;
-	background-color: #FFFFFF;
-	margin: 0px;
-	cursor: pointer;
-	-moz-user-select: none;
-	-khtml-user-select: none;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-Color: #000000;
-	color: #A5BACC;
-	width: 100%;
-	z-index: 2;
-	font-size: 10px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-color: #FFFFFF;
-	border-right-color: #FFFFFF;
-	border-bottom-color: #FFFFFF;
-	border-left-color: #FFFFFF;
-}
-
-/* This is the selector for a Panel's Content area. It's important to note that
- * you should never put any padding on the panel's content area if you plan to
- * use the Accordions panel animations. Placing a non-zero padding on the content
- * area can cause the accordion to abruptly grow in height while the panels animate.
- *
- * Anyone who styles an Accordion *MUST* specify a height on the Accordion Panel
- * Content container.
- *
- * The name of the class ("AccordionPanelContent") used in this selector is not necessary
- * to make the widget function. You can use any class name you want to style an
- * accordion panel content container.
- */
-.AccordionPanelContent {
-	height: 500px;
-	width: 950px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #FFFFFF;
-	overflow: auto;
-	outline:none;
-}
-.AccordionPanelspecialContent{
-	height: 700px;
-	width: 100%;
-	color: #FFFFFF;
-	overflow: auto;
-	outline:none;
-}
-/* This is an example of how to change the appearance of the panel tab that is
- * currently open. The class "AccordionPanelOpen" is programatically added and removed
- * from panels as the user clicks on the tabs within the Accordion.
- */
-.AccordionPanelOpen .AccordionPanelTab {
-	outline:none;
-	background-color: #FFFFFF;
-}
-
-/* This is an example of how to change the appearance of the panel tab as the
- * mouse hovers over it. The class "AccordionPanelTabHover" is programatically added
- * and removed from panel tab containers as the mouse enters and exits the tab container.
- */
-.AccordionPanelTabHover {
-	outline:none;
-	color: #000066;
-}
-.AccordionPanelOpen .AccordionPanelTabHover {
-	
-	color: #003366;
-	
-}
-
-/* This is an example of how to change the appearance of all the panel tabs when the
- * Accordion has focus. The "AccordionFocused" class is programatically added and removed
- * whenever the Accordion gains or loses keyboard focus.
- */
-.AccordionFocused .AccordionPanelTab {
-	
-	outline:none;
-	background-color: #FFFFFF;
-}
-
-/* This is an example of how to change the appearance of the panel tab that is
- * currently open when the Accordion has focus.
- */
-.AccordionFocused .AccordionPanelOpen .AccordionPanelTab {
-	
-	background-color: #FFF;
-	color: #000;
-	font-weight: bolder;
+	.AccordionPanelTab {
+	  outline:none;
+	  background-color: #FFFFFF;
+	  margin: 0px;
+	  cursor: pointer;
+	  -moz-user-select: none;
+	  -khtml-user-select: none;
+	  font-family: Verdana, Arial, Helvetica, sans-serif;
+	  font-Color: #000000;
+	  color: #A5BACC;
+	  width: 100%;
+	  height:auto;
+	  z-index: 2;
+	  font-size: 50px;
+	  border-top-style: solid;
+	  border-bottom-style: solid;
+	  border-top-color: #FFFFFF;
+	  border-right-color: #FFFFFF;
+	  border-bottom-color: #FFFFFF;
+	  border-left-color: #FFFFFF;
+	}
+	.AccordionPanelContent {
+	  height: 170px;
+	  width: 100%;
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-size: 40px;
+	  color: #FFFFFF;
+	  overflow: auto;
+	  outline:none;
+	}
+	.AccordionPanelspecialTab{
+	  outline:none;
+	  background-color: #FFFFFF;
+	  margin: 0px;
+	  cursor: pointer;
+	  -moz-user-select: none;
+	  -khtml-user-select: none;
+	  font-family: Verdana, Arial, Helvetica, sans-serif;
+	  font-Color: #000000;
+	  color: #A5BACC;
+	  width: 100%;
+	  height:auto;
+	  z-index: 2;
+	  font-size: 50px;
+	  border-top-style: solid;
+	  border-bottom-style: solid;
+	  border-top-color: #FFFFFF;
+	  border-right-color: #FFFFFF;
+	  border-bottom-color: #FFFFFF;
+	  border-left-color: #FFFFFF;
+	}
+	.AccordionPanelspecialContent{
+	  height: auto;
+	  width: 100%;
+	  color: #FFFFFF;
+	  overflow: auto;
+	  outline:none;
+	}
 }
