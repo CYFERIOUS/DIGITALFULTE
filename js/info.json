@@ -1,0 +1,83 @@
+{	
+      "Desc":[
+
+ 	 {
+            "Empresa": "ViveLab-Bogota",
+			"Descripcion":"App developed for mayoralty office in bogota",
+			"Tecnologia":"Titanium Studio SDK"
+	},
+	
+	 {
+            "Empresa": "ViveLab-Bogota",
+			"Descripcion":"App Prototype for event register",
+			"Tecnologia":"Unity SDK"
+	},
+	
+	 {
+            "Empresa": "Garden of Eden",
+			"Descripcion":"App Prototype developed for Alpha Male Club",
+			"Tecnologia":"Phonegap SDK"
+	},
+	
+	 {
+            "Empresa": "Ecoprints Advertising",
+			"Descripcion":"Website developed for large format press company",
+			"Tecnologia":"Html 5 - CSS 3 - Javascript"
+	},
+	
+	 {
+            "Empresa": "Dispre-elec Electronics",
+			"Descripcion":"Website developed for distribution electronic company",
+			"Tecnologia":"Html 5 - CSS 3 - Javascript - ActionScript"
+	},
+	
+	 {
+            "Empresa": "Ecorinoquia Sas",
+			"Descripcion":"Registred mark and website developed for ambiental company",
+			"Tecnologia":"Html 5 - CSS 3 - Javascript - ActionScript"
+	},
+	
+	 {
+            "Empresa": "Security Data Solutions",
+			"Descripcion":"Video render and advertising stuff for security company",
+			"Tecnologia":"Maya - AfterEffects"
+	},
+	
+	 {
+            "Empresa": "Sealed Air Cryovac",
+			"Descripcion":"Multimedia developed for packaging technologies company",
+			"Tecnologia":"ActionScript"
+	},
+	
+	 {
+            "Empresa": "Virtual Technologies",
+			"Descripcion":"Multimedia, website, and advertising stuff for software and hardware company",
+			"Tecnologia":"ActionScript"
+	},
+	
+	 {
+            "Empresa": "SuperServi",
+			"Descripcion":"Multimedia developed for Business investment company",
+			"Tecnologia":"ActionScript"
+	},
+	
+	 {
+            "Empresa": "Eecta",
+			"Descripcion":"Multimedia developed for illumination company",
+			"Tecnologia":"ActionScript"
+	},
+	
+	 {
+            "Empresa": "Kactus HR",
+			"Descripcion":"Trade mark developed for human resources software",
+			"Tecnologia":"Gimp"
+	},
+	
+	 {
+            "Empresa": "Ferrecortes SenCs",
+			"Descripcion":"Trade mark developed for iron structures industry",
+			"Tecnologia":"Gimp"
+	}
+	
+	]
+}

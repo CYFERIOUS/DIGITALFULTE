@@ -1,0 +1,34 @@
+{	
+      "Desc":[
+
+ 	 {
+            "Empresa": "National University of Colombia",
+			"Descripcion":"Website developed for anthropology investigation group",
+			"Tecnologia":"Html 5 - CSS 3 - Javascript"
+	},
+	
+	 {
+            "Empresa": "Military University Nueva Granada",
+			"Descripcion":"Video Game developed for nutrition campaign",
+			"Tecnologia":"ActionScript"
+	},
+	
+	 {
+            "Empresa": "ECCI",
+			"Descripcion":"OVA - Virtual Learning Objects",
+			"Tecnologia":"Html 5 - CSS 3 - Javascript - Php"
+	},
+	
+	 {
+            "Empresa": "ECCI",
+			"Descripcion":"Video game developed for campus introduction",
+			"Tecnologia":"Html 5 - CSS 3 - 2DJavascript"
+	},
+	
+	 {
+            "Empresa": "Camara Colombiana de la Conciliación",
+			"Descripcion":"OVA - Virtual Learning Objects",
+			"Tecnologia":"Html 5 - CSS 3 - Javascript"
+	}
+	]
+}
