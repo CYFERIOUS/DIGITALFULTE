@@ -1,10 +1,14 @@
 @charset "utf-8";
 @media screen and (max-width: 1920px) {
-	.container{
+	.menuInfo{
+		
+		background-color:#0C6;
 		width:950;
 	}
 	.rightMenu{
-		clear:left;
+		
+		top:0px;
+		left:228px;
 		background-color:#808080;
 		vertical-align:middle;
 		font-size:12px;
@@ -15,7 +19,8 @@
 		
 	}
 	.leftMenu{
-		clear:left;
+		
+		top:0px;
 		left:0px;
 		width:228px;
 		float::left;

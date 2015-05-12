@@ -238,8 +238,8 @@ Spry.Widget.Accordion.prototype.onBlur = function(e)
 	this.removeClassName(this.element, this.focusedClass);
 };
 
-Spry.Widget.Accordion.KEY_UP = 38;
-Spry.Widget.Accordion.KEY_DOWN = 40;
+Spry.Widget.Accordion.KEY_UP = 119;
+Spry.Widget.Accordion.KEY_DOWN = 115;
 
 Spry.Widget.Accordion.prototype.onKeyDown = function(e)
 {

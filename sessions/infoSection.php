@@ -13,7 +13,7 @@
 </head>
 <body>
  <div class="boxShow" align="center"><iframe id="spot1" src = ""  width="920" height="450" frameborder="0" scrolling="no"></iframe><a><p><div id="descriptorInfo1"></div></p><p><div id="descriptorInfo2"></div></p><p><div id="descriptorInfo3"></div></p><p> &lt; back to menu</p></a></div>
-  <div class="container">
+  <div class="menuInfo">
 
             <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/vive.jpg" data-infoId="0" name="Info01" width="228" height="120" border="0" id="Info01" /></a></div>
             <div class="rightMenu"><p>App developed for this software laboratory for mayoralty office.</p>
