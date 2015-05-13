@@ -15,11 +15,13 @@
  
   <div class="menuInfo">
   <a class="scrollerTittle">Scroll and click to see info</a>
+  
   <div class="container">
 			<div class="rightMenu">App developed for this software laboratory for mayoralty office.
           </div>
             <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/vive.jpg" data-infoId="0" name="Info01" width="228" height="120" border="0" id="Info01" /></div>
             </div>
+            
           <div class="container">
            <div class="rightMenu">App prototype developed for this software laboratory for mayoralty office.</div>
             <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/vive.jpg" data-infoId="1" name="Info02" width="228" height="120" border="0" id="Info02" /></div>

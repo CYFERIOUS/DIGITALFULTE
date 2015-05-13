@@ -58,7 +58,7 @@
 	  border-bottom-color: #FFFFFF;
 	  border-left-color: #FFFFFF;
 	}
-
+	
 	.AccordionPanelContent {
 	  height: 500px;
 	  width: 950px;
@@ -153,7 +153,7 @@
 	  font-Color: #000000;
 	  color: #A5BACC;
 	  width: 100%;
-	  height:auto;
+	  height:100px;
 	  z-index: 2;
 	  font-size: 50px;
 	  border-top-style: solid;
@@ -183,7 +183,7 @@
 	  font-Color: #000000;
 	  color: #A5BACC;
 	  width: 100%;
-	  height:auto;
+	  height:100px;
 	  z-index: 2;
 	  font-size: 50px;
 	  border-top-style: solid;
@@ -193,8 +193,10 @@
 	  border-bottom-color: #FFFFFF;
 	  border-left-color: #FFFFFF;
 	}
+	
 	.AccordionPanelspecialContent{
-	  height: auto;
+	  
+	  height: 100%;
 	  width: 100%;
 	  color: #FFFFFF;
 	  overflow: auto;
