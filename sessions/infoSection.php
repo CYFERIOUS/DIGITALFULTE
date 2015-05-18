@@ -11,7 +11,7 @@
 <link href="../css/menu.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
- <div class="boxShow" align="center"><iframe class="boxShow" id="spot1" src = "" frameborder="0" scrolling="no"></iframe><a><p><div id="descriptorInfo1"></div></p><p><div id="descriptorInfo2"></div></p><p><div id="descriptorInfo3"></div></p><p> &lt; back to menu</p></a></div>
+ <div class="boxShow" align="center"><iframe class="boxShow" id="spot1" src = "" frameborder="0" scrolling="no"></iframe><a><div id="descriptorInfo1"></div><br><div id="descriptorInfo2"></div><br><div id="descriptorInfo3"></div><br> &lt; back to menu</a></div>
  
   <div class="menuInfo">
   <a class="scrollerTittle">Scroll and click to see info</a>

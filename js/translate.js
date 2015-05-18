@@ -1,4 +1,8 @@
 $(function(){
+	
+	$( ".scrollerTittle" ).css( "font-size", "40px" );
+	$( ".scrollerTittle" ).css( "margin-left", "25%" );
+	
 	$(".boxShow").hide();
 	$(".btnOk").bind('click', {}, cargas);
 	
@@ -47,5 +51,6 @@ $(function(){
 		$(".menuInfo").fadeIn();
 		$(".boxShow").hide();
 	document.getElementsByClassName("menuInfo").contentDocument.location.reload(true);
+
 	});
 });
