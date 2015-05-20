@@ -14,7 +14,7 @@
  <div class="boxShow" align="center"><iframe class="boxShow" id="spot1" src = "" frameborder="0" scrolling="no"></iframe><a><div id="descriptorInfo1"></div><br><div id="descriptorInfo2"></div><br><div id="descriptorInfo3"></div><br> &lt; back to menu</a></div>
  
   <div class="menuInfo">
-  <a class="scrollerTittle">Scroll and click to see info</a>
+  <a class="scrollerTittle">Scroll and click image to see info</a>
   
   <div class="container">
 			<div class="rightMenu">App developed for this software laboratory for mayoralty office.

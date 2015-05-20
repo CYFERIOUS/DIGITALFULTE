@@ -16,7 +16,7 @@
  
  <div class="menuInfo">
  
- <a class="scrollerTittle">Scroll and click to see info</a>
+ <a class="scrollerTittle">Scroll and click image to see info</a>
  
  <div class="container">
  <div class="rightMenu">Demo-game of millonaire dart.</div>

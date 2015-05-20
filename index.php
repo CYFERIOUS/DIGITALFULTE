@@ -33,7 +33,7 @@
 
 <div class="AccordionPanel">
     <div class="AccordionPanelspecialTab">DIE ZAUBERFLÖTE</div>
-    <div class="AccordionPanelspecialContent"><iframe  id="firstIntro" src="sessions/inicio/inside/alephcolor.html"  width="100%" height="700" frameborder="0" ></iframe></div>
+    <div class="AccordionPanelspecialContent"><iframe  id="firstIntro" src="sessions/inicio/inside/alephcolor.html" width="100%" height="690" frameborder="0" ></iframe></div>
   </div>
   
   <div class="AccordionPanel" >
