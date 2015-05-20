@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+
+@media (min-device-width : 600px) and (max-device-width : 1024px) {
+		#contact{
+			visibility:hidden;
+		}
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#contact{
+			visibility:hidden;
+		}
+}
+

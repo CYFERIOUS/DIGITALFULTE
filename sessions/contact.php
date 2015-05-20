@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <title>dgflute</title>
 <link href="../css/flutest.css" rel="stylesheet" type="text/css" />
-<script src="../js/swap.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -335,7 +334,7 @@
   </tr>
   <tr>
     <td colspan="2" align="right" valign="top"><div align="center"></div>
-      <a href="http://www.dgflute.com/infoPrecios.pdf" target="_blank" onmouseover="MM_swapImage('Image1','','../images/thumbnails/price.jpg',1)" onmouseout="MM_swapImgRestore()"><img src="../images/thumbnails/dgFlte.jpg" name="Image1" width="290" height="135" border="0" id="Image1" /></a></td>
+     <input type="image" src="../images/thumbnails/dgFlte.jpg" name="Image1" width="290" height="135" border="0" id="Image1" /></a></td>
     </tr>
   <tr>
     <td colspan="3" align="center" valign="top"><h6>All form spaces are required, we dont send massive mail to our costumers</h6></td>
@@ -348,5 +347,10 @@
   </table>
  
   </div>
+  
+  <div></div>
+  
+  <div></div>
+  
 </body>
 </html>

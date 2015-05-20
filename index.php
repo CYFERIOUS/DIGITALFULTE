@@ -38,17 +38,20 @@
   
   <div class="AccordionPanel" >
     <div class="AccordionPanelTab">INFORMATION</div>
-    <div class="AccordionPanelContent" align="left"><?php include("sessions/infoSection.php"); ?></div>
+    <div class="AccordionPanelContent" align="left">
+	<?php include("sessions/infoSection.php"); ?></div>
   </div>
   
   <div class="AccordionPanel">
     <div class="AccordionPanelTab">EDUCATION</div>
-    <div class="AccordionPanelContent" align="left"><?php include("sessions/learnSection.php"); ?></div>
+    <div class="AccordionPanelContent" align="left">
+	<?php include("sessions/learnSection.php"); ?></div>
   </div>
   
   <div class="AccordionPanel">
     <div class="AccordionPanelTab">ENTERTAINMENT</div>
-    <div class="AccordionPanelContent" align="left"><?php include("sessions/funnySection.php"); ?></div>
+    <div class="AccordionPanelContent" align="left">
+	<?php include("sessions/funnySection.php"); ?></div>
   </div>
   
   <div class="AccordionPanel">

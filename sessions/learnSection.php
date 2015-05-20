@@ -11,10 +11,10 @@
 <link href="../css/menu.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div class="boxShow" align="center"><iframe class="boxShow" id="spot2" src = "" frameborder="0" scrolling="no"></iframe><a><div id="descriptorLearn1"></div><p><div id="descriptorLearn2"></div></p><p><div id="descriptorLearn3"></div></p><p> &lt; back to menu</p></a></div>
+<div class="boxShow" align="center"><iframe class="boxShow" id="spot2" src = "" frameborder="0" scrolling="no"></iframe><div id="descriptorLearn1"  class="descriptors"></div><p><div id="descriptorLearn2"  class="descriptors"></div></p><p><div id="descriptorLearn3"  class="descriptors"></div></p><p> &lt; <br><a>back to menu</a></div>
 
-<div class="menuInfo">
- <a class="scrollerTittle">Scroll and click image to see info</a>
+<div  class="menuInfo">
+ <div class="scrollerTittle"><a>Scroll and click image to see info</a></div>
  
   <div class="container">
   <div class="rightMenu">Web site and multimedia developed for an antropology investigation group.</div>

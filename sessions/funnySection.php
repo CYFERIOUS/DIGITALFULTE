@@ -12,11 +12,11 @@
 </head>
 
 <body>
-<div class="boxShow" align="center"><iframe class="boxShow" id="spot3" src = "" frameborder="0" scrolling="no"></iframe><a><div id="descriptorFun1"></div><p><div id="descriptorFun2"></div></p><p><div id="descriptorFun3"></div></p><p> &lt; back to menu</p></a></div>
+<div class="boxShow" align="center"><iframe class="boxShow" id="spot3" src = "" frameborder="0" scrolling="no"></iframe><div id="descriptorFun1" class="descriptors"></div><p><div id="descriptorFun2" class="descriptors"></div></p><p><div id="descriptorFun3" class="descriptors"></div></p><br> &lt; <a>back to menu</a></div>
  
  <div class="menuInfo">
  
- <a class="scrollerTittle">Scroll and click image to see info</a>
+ <div  class="scrollerTittle"><a>Scroll and click image to see info</a></div>
  
  <div class="container">
  <div class="rightMenu">Demo-game of millonaire dart.</div>
