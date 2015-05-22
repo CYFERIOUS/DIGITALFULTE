@@ -33,23 +33,23 @@
 
 <div class="AccordionPanel">
     <div class="AccordionPanelspecialTab">DIE ZAUBERFLÖTE</div>
-    <div class="AccordionPanelspecialContent"><iframe  id="firstIntro" src="sessions/inicio/inside/alephcolor.html" width="100%" height="690" frameborder="0" ></iframe></div>
+    <div class="AccordionPanelspecialContent"><iframe  id="firstIntro" src="sessions/inicio/inside/alephcolor.html" frameborder="0" ></iframe></div>
   </div>
   
   <div class="AccordionPanel" >
-    <div class="AccordionPanelTab">INFORMATION</div>
+    <div id="sektorOne" class="AccordionPanelTab">INFORMATION</div>
     <div class="AccordionPanelContent" align="left">
 	<?php include("sessions/infoSection.php"); ?></div>
   </div>
   
   <div class="AccordionPanel">
-    <div class="AccordionPanelTab">EDUCATION</div>
+    <div id="sektorTwo" class="AccordionPanelTab">EDUCATION</div>
     <div class="AccordionPanelContent" align="left">
 	<?php include("sessions/learnSection.php"); ?></div>
   </div>
   
   <div class="AccordionPanel">
-    <div class="AccordionPanelTab">ENTERTAINMENT</div>
+    <div id="sektorThree"class="AccordionPanelTab">ENTERTAINMENT</div>
     <div class="AccordionPanelContent" align="left">
 	<?php include("sessions/funnySection.php"); ?></div>
   </div>

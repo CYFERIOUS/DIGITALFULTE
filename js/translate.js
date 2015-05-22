@@ -50,7 +50,5 @@ $(function(){
 	$(".boxShow").click(function(){
 		$(".menuInfo").fadeIn();
 		$(".boxShow").hide();
-	document.getElementsByClassName("menuInfo").contentDocument.location.reload(true);
-
 	});
 });

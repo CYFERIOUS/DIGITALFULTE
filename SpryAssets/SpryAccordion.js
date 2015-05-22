@@ -135,8 +135,16 @@ Spry.Widget.Accordion.prototype.onPanelTabMouseOut = function(panel)
 		this.removeClassName(this.getPanelTab(panel), this.hoverClass);
 };
 
+function OpenInfo(){
+	console.log("llamao");
+	$(".menuInfo").fadeIn();
+	$(".boxShow").hide();
+	
+}
+
 Spry.Widget.Accordion.prototype.openPanel = function(panel)
 {
+	
 	
 	var panelA = this.currentPanel;
 	var panelB = panel;
@@ -181,6 +189,9 @@ Spry.Widget.Accordion.prototype.openPanel = function(panel)
 	this.addClassName(panelB, this.openClass);
 
 	this.currentPanel = panelB;
+	
+	
+	OpenInfo();
 };
 
 Spry.Widget.Accordion.prototype.openNextPanel = function()
@@ -222,6 +233,7 @@ Spry.Widget.Accordion.prototype.onPanelClick = function(panel)
 	if (panel != this.currentPanel)
 		this.openPanel(panel);
 	this.focus();
+	
 };
 
 Spry.Widget.Accordion.prototype.onFocus = function(e)

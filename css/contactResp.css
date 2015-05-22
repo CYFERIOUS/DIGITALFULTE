@@ -1,8 +1,15 @@
 @charset "utf-8";
 
-
+	#mobile{
+		visibility:hidden;
+	}
 
 @media (min-device-width : 600px) and (max-device-width : 1024px) {
+		#mobile{
+			font-size:x-large;
+			color:#666;
+			visibility:visible;
+		}
 		#contact{
 			visibility:hidden;
 		}
@@ -10,7 +17,12 @@
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	#contact{
+		#mobile{
+			font-size:xx-large;
+			color:#666;
+			visibility:visible;
+		}
+		#contact{
 			visibility:hidden;
 		}
 }

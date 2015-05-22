@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>dgflute</title>
 <link href="../css/flutest.css" rel="stylesheet" type="text/css" />
+<link href="../css/contactResp.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         </li>
         <li class="Estilo2">Cel: 3204744860</li>
         <li class="Estilo2">we are a honest studio,<br> we never resell sites.<br> we create, design and<br> programming.
-          <h1 class="Estilo2"> Bogotá, Colombia</h1>
+    
         </li>
         </ul>      </td>
     <td rowspan="3" align="left" valign="top"><h1 class="Estilo2">Form for you Message</h1>
@@ -334,7 +335,7 @@
   </tr>
   <tr>
     <td colspan="2" align="right" valign="top"><div align="center"></div>
-     <input type="image" src="../images/thumbnails/dgFlte.jpg" name="Image1" width="290" height="135" border="0" id="Image1" /></a></td>
+     <input type="image" src="../images/thumbnails/3dscene.png" name="Image1" width="290" height="135" border="0" id="Image1" /></a></td>
     </tr>
   <tr>
     <td colspan="3" align="center" valign="top"><h6>All form spaces are required, we dont send massive mail to our costumers</h6></td>
@@ -348,9 +349,10 @@
  
   </div>
   
-  <div></div>
+  <div id="mobile">Phone (57-1)6 179 108 - Cel: 3204744860<br><input type="image" src="../images/thumbnails/3dscene.jpg" name="Image1" width="290" height="135" border="0" id="Image1" /><br>
+  <a href="mailto:dgflute@gmail.com">dgflute@gmail.com</a></div>
   
-  <div></div>
+
   
 </body>
 </html>
