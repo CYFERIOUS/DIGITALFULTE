@@ -14,7 +14,7 @@
  <meta http-equiv="Content-Language" content="en_US" />
 <meta property="og:title" content="DIE ZAUBERFLÖTE" />
 <meta property="og:type" content="website" />
-<meta property="og:image" content="http://www.dgflute.com/images/dgFlte.jpg" />
+<meta property="og:image" content="http://www.dgflute.com/images/thumbnails/unitedCyberPunks.png" />
 
 <link rel="SHORCUT ICON" href = "mozart.ico"type="image/x-icon"/> 
 

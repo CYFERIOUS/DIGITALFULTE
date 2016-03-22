@@ -1,5 +1,6 @@
 $(function(){
 	
+	
 	$( ".scrollerTittle" ).css( "font-size", "40px" );
 	$( ".scrollerTittle" ).css( "margin-left", "25%" );
 	

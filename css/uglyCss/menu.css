@@ -1,12 +1,12 @@
-@charset "utf-8";.boxShow{width:950px;height:450px}.menuInfo{width:950px;height:auto}
-.container{top:0;width:950px;height:120px}.leftMenu{left:0;width:228px;height:120px;float::left;border-bottom-width:thin;border-bottom-style:inset;border-bottom-color:#FFF}
+.boxShow{width:950px;height:450px}.menuInfo{width:950px;height:auto}.container{top:0;width:950px;height:120px}
+.leftMenu{left:0;width:228px;height:120px;float:left;border-bottom-width:thin;border-bottom-style:inset;border-bottom-color:#FFF}
 #RotateA:hover+#RotateB input{border-radius:12px;-webkit-box-shadow:9px -2px 11px 6px rgba(186,222,242,0.59);-moz-box-shadow:9px -2px 11px 6px rgba(186,222,242,0.59);box-shadow:9px -2px 11px 6px rgba(186,222,242,0.59);transform:perspective(600px)}
 .rightMenu{padding-top:60px;text-align:center;background-color:#909ead;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;font-size:12px;color:#FFF;width:710px;height:60px;float:right;border-bottom-width:thin;border-bottom-style:inset;border-bottom-color:#FFF}
 .rightMenu:hover{font-size:16px;background-color:#6c9acb;box-shadow:inset 0 0 0 16px rgba(255,255,255,0.1),0 1px 2px rgba(0,0,0,0.1);-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
-@media(min-device-width :600px) and (max-device-width :1024px){.boxShow{width:600px;height:340px}
+@media(min-device-width:600px) and (max-device-width:1024px){.boxShow{width:600px;height:340px}
 .menuInfo{top:0;width:600px;height:auto}.container{top:0;width:720px;height:120px}
-.leftMenu{top:0;left:0;width:228px;height:120px;float::left;border-bottom-width:thin;border-bottom-style:inset;border-bottom-color:#FFF}
+.leftMenu{top:0;left:0;width:228px;height:120px;float:left;border-bottom-width:thin;border-bottom-style:inset;border-bottom-color:#FFF}
 .rightMenu{padding-top:60px;background-color:#909ead;font-size:18px;color:#FFF;width:492px;height:60px;float:right;border-bottom-width:thin;border-bottom-style:inset;border-bottom-color:#FFF}
-}@media only screen and (min-device-width :320px) and (max-device-width :480px){.boxShow{width:320px;height:150px}
+}@media only screen and (min-device-width:320px) and (max-device-width:480px){.boxShow{width:320px;height:150px}
 .menuInfo{top:0;width:100%;height:auto;left:30%}.container{top:0;width:100%;height:auto}
 .leftMenu{top:0;width:100%;height:auto}.rightMenu{visibility:hidden}}

@@ -34,12 +34,12 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('css', function () {
-  gulp.src('./styles/**/*.css')
+  gulp.src('css/*.css')
     .pipe(uglifycss({
       "maxLineLen": 80,
       "uglyComments": true
     }))
-    .pipe(gulp.dest('./dist/'));
+    .pipe(gulp.dest('css/uglyCss/'));
 });
 
 
@@ -50,4 +50,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', ['lint', 'sass', 'scripts', 'watch', 'css']);
+gulp.task('default', ['lint', 'sass', 'scripts', 'watch','css']);
