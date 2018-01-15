@@ -60,7 +60,10 @@
     <div class="AccordionPanelContent"> <?php include("sessions/contact.php"); ?></div>
   </div>
 </div>
-<?php include("sessions/info.php"); ?>
+<div id="footer">
+	<?php include("sessions/info.php"); ?>
+</div>
+
 </div>
 <script type="text/javascript">
 var Accordion1 = new Spry.Widget.Accordion("Accordion1");

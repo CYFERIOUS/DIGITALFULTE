@@ -3,13 +3,17 @@
 		height:450px;
 	}
 	.menuInfo{
-		width:950px;
+		width:970px;
 		height:auto;
+		overflow-y:hidden;
+		
+		
 	}
 	.container{
 		top:0px;
 		width:950px;
 		height:120px;
+		
 	}
 	.leftMenu{
 		
@@ -20,6 +24,7 @@
 		border-bottom-width: thin;
 		border-bottom-style: inset;
 		border-bottom-color: #FFF;
+		
 	}
 	
 	

@@ -3,8 +3,9 @@
   height: 450px; }
 
 .menuInfo {
-  width: 950px;
-  height: auto; }
+  width: 970px;
+  height: auto;
+  overflow-y: hidden; }
 
 .container {
   top: 0px;
