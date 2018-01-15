@@ -1,2 +1,7 @@
-/node_modules
+*.pyc
+**node_modules
+**bower_components
+.tmp
+*.log
+
 
