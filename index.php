@@ -25,6 +25,7 @@
 <!--ACORDION-->
 <script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
 
+
 </head>
 
 <body>
@@ -33,7 +34,7 @@
 
 <div class="AccordionPanel">
     <div class="AccordionPanelspecialTab">DIE ZAUBERFLÖTE</div>
-    <div class="AccordionPanelspecialContent"><iframe  id="firstIntro" src="sessions/inicio/inside/index.html" frameborder="0" ></iframe></div>
+    <div class="AccordionPanelspecialContent" id="sektorZero"><iframe  id="firstIntro" src="sessions/inicio/webgl/index.html"  scrolling="no" frameborder="0" ></iframe></div>
   </div>
   
   <div class="AccordionPanel" >

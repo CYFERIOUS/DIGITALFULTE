@@ -19,7 +19,7 @@
  <div class="scrollerTittle"> <a>Scroll and click image to see info</a></div>
   
   <div class="container">
-			<div class="rightMenu" id="RotateA">App developed for this software laboratory for mayoralty office.</div>
+			<div class="rightMenu btnOk info" data-infoId="0" data-id="Info01" id="RotateA">App developed for this software laboratory for mayoralty office.</div>
             <div class="leftMenu" id="RotateB"><input type="image" class="btnOk info" src="../images/thumbnails/vive.jpg" data-infoId="0" name="Info01" width="228" height="120" border="0" id="Info01" /></div>
             </div>
             
@@ -83,7 +83,7 @@
             
             <div class="container">
            <div class="rightMenu">Mark made it for industrial enterprise.</div>
-          <div class="leftMenu"><input type="image" class="btnOk info" src="../images/thumbnails/ferrere.jpg" data-infoId="12" name="Info13" width="228" height="120" border="0" id="Info13" /></div>
+          <div class="leftMenu"><input type="image" class="btnOk info" src="../../images/thumbnails/ferrere.jpg" data-infoId="12" name="Info13" width="228" height="120" border="0" id="Info13" /></div>
           </div>
 
    </div>

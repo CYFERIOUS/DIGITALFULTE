@@ -1,0 +1,32 @@
+{
+  "name": "digital-flute",
+  "description": "portfolio",
+  "main": "index.js",
+  "authors": [
+    "DIGITAL-FLUTE"
+  ],
+  "license": "SEE LICENSE IN license.txt",
+  "keywords": [
+    "DIGITAL_FLUTE"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "none",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+   
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+	"three.js": "threejs#*"
+  }
+}
