@@ -19,37 +19,51 @@
  <div  class="scrollerTittle"><a>Scroll and click image to see info</a></div>
  
  <div class="container">
- <div class="rightMenu">Demo-game of millonaire dart.</div>
+ 			<div class="rightMenu">Demo-game of millonaire dart.
+	  			<br><a class="imageClick">click in the left image please.</a>
+	 		</div>
             <div class="leftMenu"><input type="image" class="btnOk fun" src="../images/thumbnails/dardo.jpg"  data-funId="0" name="Fun02" width="228" height="120" border="0" id="Fun02" /></div>
           </div>
           
           <div class="container">
-          <div class="rightMenu">Character design. (am in House, Spain).</div>
+          <div class="rightMenu">Character design. (am in House, Spain).
+			<br><a class="imageClick">click in the left image please.</a>  
+		  </div>
          <div class="leftMenu"><input type="image" class="btnOk fun" src="../images/thumbnails/amInhouse.jpg"  data-funId="1" name="Fun03" width="228" height="120" border="0" id="Fun03" /></div>
             </div>
             
             <div class="container">
-             <div class="rightMenu">Mark developed for medieval clothes. (Cos-play fashion)</div>
+             <div class="rightMenu">Mark developed for medieval clothes. (Cos-play fashion)
+				<br><a class="imageClick">click in the left image please.</a>	
+			</div>
           <div class="leftMenu"><input type="image" class="btnOk fun" src="../images/thumbnails/cupe.jpg"  data-funId="2" name="Fun04" width="228" height="120" border="0" id="Fun04" /></div>
           </div>
            
             <div class="container">
-          	<div class="rightMenu">Proposal of video game interface.</div>
+          	<div class="rightMenu">Proposal of video game interface.
+				<br><a class="imageClick">click in the left image please.</a>	
+			</div>
             <div class="leftMenu"><input type="image" class="btnOk fun" src="../images/thumbnails/cosa1.jpg"  data-funId="3" name="Fun05" width="228" height="120" border="0" id="Fun05" /></div>
             </div>
             
             <div class="container">
-          	<div class="rightMenu">Little video game based on hellraiser movie.</div>
+          	<div class="rightMenu">Little video game based on hellraiser movie.
+				<br><a class="imageClick">click in the left image please.</a>
+			</div>
           <div class="leftMenu"><input type="image" class="btnOk fun" src="../images/thumbnails/hellPuzzle.jpg"  data-funId="4" name="Fun06" width="228" height="120" border="0" id="Fun06" /></div>
           </div>
           
           	<div class="container">
-          	 <div class="rightMenu">Digital Illustratión portfolio.</div>
+          	 <div class="rightMenu">Digital Illustratión portfolio.
+					<br><a class="imageClick">click in the left image please.</a>
+			 </div>
             <div class="leftMenu"><input type="image" class="btnOk fun" src="../images/thumbnails/bizarro.png" name="3" width="228" height="120" border="0" id="ilustracion" /></div>
             </div>
            
            <div class="container">
-     		 <div class="rightMenu">3D character design portfolio.</div>
+     		 <div class="rightMenu">3D character design portfolio.
+			 	<br><a class="imageClick">click in the left image please.</a>  
+			 </div>
           <div class="leftMenu"><input type="image" class="btnOk fun" src="../images/thumbnails/3dscene.jpg"  name="Fun07" width="228" height="120" border="0" id="Fun07" /></div>
           </div>
     </div>

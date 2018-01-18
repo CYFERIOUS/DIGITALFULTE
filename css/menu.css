@@ -4,8 +4,8 @@
 
 .menuInfo {
   width: 970px;
-  height: auto;
-  overflow-y: hidden; }
+  height: 600px;
+  overflow-y: scroll; }
 
 .container {
   top: 0px;
@@ -44,6 +44,12 @@
   border-bottom-style: inset;
   border-bottom-color: #FFF; }
 
+.imageClick {
+  font-size: 10px;
+  font-style: italic;
+  color: aqua;
+  display: none; }
+
 .rightMenu:hover {
   font-size: 16px;
   background-color: #6C9ACB;
@@ -53,6 +59,9 @@
   -o-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out; }
+
+.rightMenu:hover .imageClick {
+  display: block; }
 
 @media (min-device-width: 600px) and (max-device-width: 1024px) {
   .boxShow {

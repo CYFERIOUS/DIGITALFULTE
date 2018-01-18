@@ -17,27 +17,37 @@
  <div class="scrollerTittle"><a>Scroll and click image to see info</a></div>
  
   <div class="container">
-  <div class="rightMenu">Web site and multimedia developed for an antropology investigation group.</div>
+  	<div class="rightMenu">Web site and multimedia developed for an antropology investigation group.
+		<br><a class="imageClick">click in the left image please.</a>  
+	</div>
 <div class="leftMenu"><input type="image" class="btnOk learn" src="../images/thumbnails/nacho.jpg"  data-learnId="0" name="Learn01" width="228" height="120" border="0" id="Learn01" /></div>
 </div>
            
           <div class="container">   
-          <div class="rightMenu">Multimedia-Game developed for medicine department of military university nueva granada.</div>
+          <div class="rightMenu">Multimedia-Game developed for medicine department of military university nueva granada.
+				<br><a class="imageClick">click in the left image please.</a>
+		  </div>
           <div class="leftMenu"><input type="image" class="btnOk learn" src="../images/thumbnails/medicina.jpg"  data-learnId="1" name="Learn02" width="228" height="120" border="0" id="Learn02" /></div>
 </div>    
 
 		<div class="container">  
-		<div class="rightMenu">Virtual object of learning, developed for Ecci university.</div>
+		<div class="rightMenu">Virtual object of learning, developed for Ecci university.
+			<br><a class="imageClick">click in the left image please.</a>
+		</div>
         <div class="leftMenu"><input type="image" class="btnOk learn" src="../images/thumbnails/ecci.jpg"  data-learnId="2" name="Learn03" width="228" height="120" border="0" id="Learn03" /></div>
             </div>
             
             <div class="container"> 
-            <div class="rightMenu">Game-infoGraph, developed for Ecci university.</div>
+            <div class="rightMenu">Game-infoGraph, developed for Ecci university.
+				<br><a class="imageClick">click in the left image please.</a>
+			</div>
             <div class="leftMenu"><input type="image" class="btnOk learn" src="../images/thumbnails/ecciGame.jpg"  data-learnId="3" name="Learn04" width="228" height="120" border="0" id="Learn04" /></div>
            </div>
            
            <div class="container"> 
-            <div class="rightMenu">Virtual object of learning, developed for Colombian council camera.</div>
+            <div class="rightMenu">Virtual object of learning, developed for Colombian council camera.
+				<br><a class="imageClick">click in the left image please.</a>
+			</div>
             <div class="leftMenu"><input type="image" class="btnOk learn" src="../images/thumbnails/ccc.jpg"  data-learnId="4" name="Learn05" width="228" height="120" border="0" id="Learn05" /></div>
           </div>
    </div>
