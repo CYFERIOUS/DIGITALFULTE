@@ -122,7 +122,7 @@ border-radius: 50px;
 	top:10px;
 	width:70%;
 	height:550px;
-	background: #00ff00 url("../../../../images/intro/cityscape.jpg") no-repeat fixed center; 
+	background: #00ff00 url("../images/manano.jpg") no-repeat fixed center; 
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -212,6 +212,7 @@ border-radius: 50px;
 	-webkit-box-shadow: 6px 10px 5px 0px rgba(19,52,64,0.14);
 	-moz-box-shadow: 6px 10px 5px 0px rgba(19,52,64,0.14);
 	box-shadow: 6px 10px 5px 0px rgba(19,52,64,0.14);
+	opacity: 0.5;
 	
 
 }
@@ -234,7 +235,7 @@ border-radius: 50px;
 	-webkit-box-shadow: -6px 10px 5px 0px rgba(19,52,64,0.14);
 	-moz-box-shadow: -6px 10px 5px 0px rgba(19,52,64,0.14);
 	box-shadow: -6px 10px 5px 0px rgba(19,52,64,0.14);
-	
+	opacity: 0.5;
 }
 
 .floor{
@@ -266,8 +267,10 @@ border-radius: 50px;
 #slide1{
 	
 }
+
 #slide2{
 	
+	background: #00ff00 url("../images/manano2.jpg") no-repeat fixed center; 
 	-ms-transform: translate(0,100%); /* IE 9 */
     -webkit-transform: translate(0,100%); /* Chrome, Safari, Opera */
     transform: translate(0,100%);
@@ -296,12 +299,13 @@ border-radius: 50px;
 
  
 #slide3{
+	background: #00ff00 url("../images/manano3.jpg") no-repeat fixed center;
 	-ms-transform: translate(100%,100%); /* IE 9 */
     -webkit-transform: translate(100%,100%); /* Chrome, Safari, Opera */
     transform: translate(100%,100%);
 }
 #slide4{
-	
+	background: #00ff00 url("../images/manano4.jpg") no-repeat fixed center; 
 	-ms-transform: translate(100%,0); /* IE 9 */
     -webkit-transform: translate(100%,0); /* Chrome, Safari, Opera */
     transform: translate(100%,0);
@@ -309,37 +313,37 @@ border-radius: 50px;
     -moz-perspective: 500px;
 }
 #slide5{
-	
+	background: #00ff00 url("../images/manano5.jpg") no-repeat fixed center;
 	-ms-transform: translate(200%,0); /* IE 9 */
     -webkit-transform: translate(200%,0); /* Chrome, Safari, Opera */
     transform: translate(200%,0);
 }
 #slide6{
-	
+	background: #00ff00 url("../images/manano6.jpg") no-repeat fixed center;
 	-ms-transform: translate(200%,100%); /* IE 9 */
     -webkit-transform: translate(200%,100%); /* Chrome, Safari, Opera */
     transform: translate(200%,100%);
 }
 #slide7{
-	
+	background: #00ff00 url("../images/manano7.jpg") no-repeat fixed center;
 	-ms-transform: translate(300%,100%); /* IE 9 */
     -webkit-transform: translate(300%,100%); /* Chrome, Safari, Opera */
     transform: translate(300%,100%);
 }
 #slide8{
-	
+	background: #00ff00 url("../images/manano8.jpg") no-repeat fixed center;
 	-ms-transform: translate(300%,0); /* IE 9 */
     -webkit-transform: translate(300%,0); /* Chrome, Safari, Opera */
     transform: translate(300%,0%);
 }
 #slide9{
-	
+	background: #00ff00 url("../images/manano9.jpg") no-repeat fixed center;
 	-ms-transform: translate(400%,0); /* IE 9 */
     -webkit-transform: translate(400%,0); /* Chrome, Safari, Opera */
     transform: translate(400%,0%);
 }
 #slide10{
-	
+	background: #00ff00 url("../images/manano10.jpg") no-repeat fixed center;
 	-ms-transform: translate(400%,100%); /* IE 9 */
     -webkit-transform: translate(400%,100%); /* Chrome, Safari, Opera */
     transform: translate(400%,100%);

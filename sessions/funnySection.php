@@ -57,7 +57,7 @@
           	 <div class="rightMenu">Digital Illustratión portfolio.
 					<br><a class="imageClick">click in the left image please.</a>
 			 </div>
-            <div class="leftMenu"><input type="image" class="btnOk fun" src="../images/thumbnails/bizarro.png" name="3" width="228" height="120" border="0" id="ilustracion" /></div>
+            <div class="leftMenu"><input type="image" class="btnOk site" src="../images/thumbnails/bizarro.png" name="3" width="228" height="120" border="0" id="ilustracion" /></div>
             </div>
            
            <div class="container">

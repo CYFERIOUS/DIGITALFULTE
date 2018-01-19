@@ -22,6 +22,7 @@ $(function(){
 		if(this.className=='btnOk fun'){
 			var fichasFun = event.target.getAttribute("data-funId");
 			funCharge(event.target.id,fichasFun);
+			
 		}
 		if(this.className=='btnOk site'){
 			siteCharge(event.target.id,event.target.name);
@@ -40,13 +41,16 @@ $(function(){
 		document.getElementById("descriptorLearn3").innerHTML = "Technology:  " + datosEdu.Desc[ficha].Tecnologia;
 	}
 	function funCharge(funk,ficha){
+		
 		document.getElementById("spot3").src = "../images/enter/"+funk+".jpg";
 		document.getElementById("descriptorFun1").innerHTML = "Company:  " + datosFun.Desc[ficha].Empresa;
 		document.getElementById("descriptorFun2").innerHTML = "Description:  " + datosFun.Desc[ficha].Descripcion;
 		document.getElementById("descriptorFun3").innerHTML = "Technology:  " + datosFun.Desc[ficha].Tecnologia;
 	}
-	function siteCharge(sitio,lugar){
-		document.getElementById("spot"+lugar).src = "../sessions/"+sitio+".html";
+	function siteCharge(){
+		
+		document.getElementById("spot3").src = "../sessions/ilustracion.html";
+		document.getElementById("descriptorFun1").innerHTML = "Illustration portfolio of NOSSA'S brothers"
 	}
 	$(".boxShow").click(function(){
 		$(".menuInfo").fadeIn();
