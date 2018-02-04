@@ -19,7 +19,7 @@
 
 	.AccordionPanelTab {
 	  outline:none;
-	  background-color: #FFFFFF;
+	 
 	  margin: 0px;
 	  cursor: pointer;
 	  -moz-user-select: none;
@@ -36,6 +36,8 @@
 	  border-right-color: #FFFFFF;
 	  border-bottom-color: #FFFFFF;
 	  border-left-color: #FFFFFF;
+		
+	
 	}
 
 	.AccordionPanelspecialTab{
@@ -78,8 +80,12 @@
 	}
 
 	.AccordionPanelOpen .AccordionPanelTab {
-	  outline:none;
-	  background-color: #FFFFFF;
+		outline:none;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,0c95e8+33,ffffff+51,0c95e8+66,ffffff+100&1+0,0.5+25,0.5+75,1+100 */
+		background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(71,175,238,0.5) 25%, rgba(12,149,232,0.5) 33%, rgba(255,255,255,0.5) 51%, rgba(12,149,232,0.5) 66%, rgba(76,177,238,0.5) 75%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(71,175,238,0.5) 25%,rgba(12,149,232,0.5) 33%,rgba(255,255,255,0.5) 51%,rgba(12,149,232,0.5) 66%,rgba(76,177,238,0.5) 75%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(71,175,238,0.5) 25%,rgba(12,149,232,0.5) 33%,rgba(255,255,255,0.5) 51%,rgba(12,149,232,0.5) 66%,rgba(76,177,238,0.5) 75%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	}
 
 	.AccordionPanelTabHover {

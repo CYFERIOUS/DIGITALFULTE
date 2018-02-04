@@ -4,7 +4,7 @@ a {
   font-weight: bolder; }
 
 .scrollerTittle {
-  visibility: hidden; }
+  display: none; }
 
 .descriptors {
   color: #666;
@@ -111,7 +111,7 @@ table {
 
   .scrollerTittle {
     text-align: center;
-    visibility: visible; }
+    display: block; }
 
   .boxShow {
     -webkit-animation: myMove 5s infinite;
@@ -151,7 +151,7 @@ table {
   .scrollerTittle {
     color: #666;
     font-size: 12px;
-    visibility: visible; }
+    display: block; }
 
   .btnOk {
     cursor: pointer;

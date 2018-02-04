@@ -5,7 +5,7 @@ a{
 	font-weight:bolder;
 }
 .scrollerTittle{
-	visibility:hidden;
+	display: none;
 }
 .descriptors{
 	color:#666;
@@ -122,7 +122,7 @@ to {left:0px;}
 
 .scrollerTittle{
 	text-align:center;
-	visibility:visible;
+	display: block;
 	}
 	
 	
@@ -170,7 +170,7 @@ to {left:0px;}
 	.scrollerTittle{
 		color:#666;
 		font-size:12px;
-		visibility:visible;
+		display: block;
 	}
 	.btnOk {
 		cursor:pointer;
