@@ -13,7 +13,7 @@
 <link href="../css/menu.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
- <div class="boxShow" align="center"><iframe class="boxShow" id="spot1" src = "" frameborder="0" scrolling="no"></iframe><div id="descriptorInfo1" class="descriptors"></div><br><div id="descriptorInfo2" class="descriptors"></div><br><div id="descriptorInfo3" class="descriptors"></div><br> &lt;<a>back to menu</a></div>
+ <div class="boxShow" align="center"><iframe class="boxShow" id="spot1" src = "" frameborder="0" scrolling="no"></iframe><div id="descriptorInfo1" class="descriptors"></div><br><div id="descriptorInfo2" class="descriptors"></div><br><div id="descriptorInfo3" class="descriptors"></div><br> &lt;<a>&#129172; back to menu</a></div>
  
   <div class="menuInfo">
  	<div class="scrollerTittle"><a>Scroll and click image to see info</a></div>

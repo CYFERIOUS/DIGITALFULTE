@@ -53,6 +53,8 @@ table {
   /* Opera */
   -o-animation: myMove 3s;
   -o-animation-duration: 1s; }
+  .boxShow a {
+    color: #03b7fa; }
 
 #footer {
   width: 100%;
@@ -81,11 +83,7 @@ table {
 #contact {
   background-color: #909EAD;
   width: 100%;
-  height: auto; 
-	
-}
-
-
+  height: auto; }
 
 @-webkit-keyframes myMove {
   from {
