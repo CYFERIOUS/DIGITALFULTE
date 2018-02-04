@@ -5,6 +5,7 @@
 <title>dgflute</title>
 <link href="../css/flutest.css" rel="stylesheet" type="text/css" />
 <link href="../css/contactResp.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
@@ -14,7 +15,7 @@
       <td align="left" valign="top" ><table width="90%" border="0" align="center" cellpadding="0" cellspacing="5">
  
   <tr>
-    <td colspan="2" valign="top"><h2 class="Estilo2" align="center">www.digital-flute.com</h2>
+    <td colspan="2" valign="top"><h2 class="Estilo2" align="center">Digital Flute Studio</h2>
       <ul class="Estilo2">
         <li class="Estilo2"> Phone (57-1)6 179 108<br />
         </li>
@@ -29,29 +30,30 @@
         <tr align="center" valign="middle">
           <td align="left" valign="left">Name</td>
           <td align="left" valign="top">
-            <input name="nombres" type="text" id="nombres" size="40" border="0" />
+            <input name="nombres" type="text" id="nombres" size="39" border="0" />
           </td>
         </tr>
         <tr align="center" valign="middle">
           <td align="left" valign="top"> Charge</td>
-          <td align="left" valign="top"><input name="cargo" type="text" id="cargo" size="40" border="0"/>          </td>
+          <td align="left" valign="top"><input name="cargo" type="text" id="cargo" size="39" border="0"/>          </td>
         </tr>
         <tr align="center" valign="middle">
           <td align="left" valign="top">Enterprise</td>
-          <td align="left" valign="top">            <input name="empresa" type="text" id="empresa" size="40" border="0"/>          </td>
+          <td align="left" valign="top">            <input name="empresa" type="text" id="empresa" size="39" border="0"/>          </td>
         </tr>
         <tr align="center" valign="middle">
           <td align="left" valign="top">E-mail</td>
           <td align="left" valign="top"><label>
             <strong>
-              <input name="email" type="text" size="40" id="email" border="0"/>
+              <input name="email" type="text" size="39" id="email" border="0"/>
               </strong></label></td>
         </tr>
         <tr align="center" valign="middle">
           <td align="left" valign="top">Country</td>
           <td align="left" valign="top">
-            <select name="pais" id="pais"  border="0">
-				<option value="AF" size="40">Afghanistan</option>
+            <select name="pais" id="pais"   border="0">
+				<option value="NoPlace" >:::::::::::::::::::::Choose your country:::::::::::::::::::::</option>
+				<option value="AF" >Afghanistan</option>
 				<option value="AL">Albania</option>
 				<option value="DZ">Algeria</option>
 				<option value="AS">American Samoa</option>
@@ -304,30 +306,33 @@
         <tr align="center" valign="middle">
           <td align="left" valign="top">City</td>
           <td align="left" valign="top">
-            <input name="ciudad" type="text" id="ciudad" size="40" border="0" />
+            <input name="ciudad" type="text" id="ciudad" size="39" border="0" />
          </td>
         </tr>
         <tr align="center" valign="middle">
           <td align="left" valign="top">Phone</td>
           <td align="left" valign="top">
-            <input name="telefono" type="text" size="40" id="telefono" border="0"/>
+            <input name="telefono" type="text" size="39" id="telefono" border="0"/>
          </td>
         </tr>
         <tr align="center" valign="middle">
           <td align="left" valign="top">Message: </td>
           <td align="left" valign="top">
-            <textarea name="mensaje" cols="40" rows="7" id="mensaje" border="0"></textarea>          </td>
+            <textarea name="mensaje"  cols="40" rows="7" id="mensaje" border="0"></textarea>
+			</td>
+			
         </tr>
+     	<tr> <td align="left" valign="top"></td><td><div class="g-recaptcha" data-sitekey="6LepvUMUAAAAAAYQ6_9ItBa6TFX6CWKl7SL5i-LK"></div></td></tr>
+		<tr><td align="left" valign="top"></td><td><input type="submit" name="Submit" value="Send mail" mailto:doremi@dgflute.com="mailto:doremi@dgflute.com"> </td><td><input type="reset" name="Submit2" value="Restore" /></td></tr>
+      
+	
+		  
+        
       </table>
-      <table width="200" align="center" cellpadding="0">
-        <tr>
-          <td><input type="submit" name="Submit" value="Send mail"mailto:doremi@dgflute.com="mailto:doremi@dgflute.com"> </td>
-          <td><div align="center">
-              <input type="reset" name="Submit2" value="Restore" />
-          </div></td>
-        </tr>
-      </table>
-      </form></td>
+		  
+      </form>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+	  </td>
   </tr>
   <tr>
     <td align="left" valign="bottom" class="tablaCentral">E-mail:</td>
@@ -335,7 +340,7 @@
   </tr>
   <tr>
     <td colspan="2" align="right" valign="top"><div align="center"></div>
-     <input type="image" src="../images/thumbnails/3dscene.png" name="Image1" width="290" height="135" border="0" id="Image1" /></a></td>
+     <input type="image" src="../images/thumbnails/3dscene.png" name="Image1" width="228" height="120" border="0" id="Image1" /></a></td>
     </tr>
   <tr>
     <td colspan="3" align="center" valign="top"><h6>All form spaces are required, we dont send massive mail to our costumers</h6></td>
@@ -355,4 +360,5 @@
 
   
 </body>
+	
 </html>

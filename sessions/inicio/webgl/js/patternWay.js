@@ -52,7 +52,7 @@ var Module = (function () {
 
     	scene = new THREE.Scene();
 
-        scene.background = new THREE.Color( 0x999999 );
+        scene.background = new THREE.Color( 0x909EAD );
         
         camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 10000 );
 
