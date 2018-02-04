@@ -5,6 +5,7 @@
 <title>Do::Re::Mi::Fa::Sol::La::Si::</title>
 <!--TITULO MOVEMENT-->
 <script src="js/move.js"></script>
+<script src="js/loader.js"></script>
 <!--METATAGS-->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="publicidad, web design, multimedia, graphic design, bogota, advertising">
@@ -19,6 +20,7 @@
 <link rel="SHORCUT ICON" href = "mozart.ico"type="image/x-icon"/> 
 
 <link href="css/flutest.css" rel="stylesheet" type="text/css" />
+<link href="css/loader.css" rel="stylesheet" type="text/css" />
 <link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
 <script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
 <script src="js/async.js" type="text/javascript"></script>
@@ -29,6 +31,15 @@
 </head>
 
 <body>
+	<div id="bigPapaLoader">
+  <div id="curtain">
+    <div class="lodainer">
+       <div class="anima"></div>
+      <div class="loader"></div>
+    </div>
+  </div>
+  <div id="magenta"></div>
+</div>
 <div id="container" align="center">
 <div id="Accordion1" class="Accordion" tabindex="0">
 
