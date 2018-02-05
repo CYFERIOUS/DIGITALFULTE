@@ -32,7 +32,9 @@ $(function(){
 		
 	/////shoot images into main div.	
 	function getIMG(src,id){
-		$("#main").attr("src",src);
+		var path = event.target.getAttribute("data-path");
+		$("#main").attr("src",path);
+		
 		var path = "texto/"+id+".txt";
 		$.get(path,function(data){
 			console.log(data);

@@ -23,7 +23,7 @@
 
 <div id="frame">
  
-	<img id="main" src="" alt="img"/> 
+	<div alt="img"><iframe id="main" src="" width="500" height="500" ></iframe> </div>
   
     <table id="frame-arrows">
 	
