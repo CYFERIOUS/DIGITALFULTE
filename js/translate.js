@@ -5,26 +5,31 @@ $(function(){
 	$( ".scrollerTittle" ).css( "margin-left", "25%" );
 	
 	$(".boxShow").hide();
+	$(".rightMenu").bind('click', {}, cargas);
+	$(".rightMenu").bind('click', {}, cargas);
 	$(".btnOk").bind('click', {}, cargas);
 	
 	function cargas(event){
 		$(".menuInfo").fadeOut();
 		$(".boxShow").show();
 	
-		if(this.className=='btnOk info'){
-			var fichasInfo = event.target.getAttribute("data-infoId");
-			infoCharge(event.target.id,fichasInfo);
+		if(this.className == 'rightMenu info' || this.className == 'btnOk info' ){
+			var fichasInfo1 = event.target.getAttribute("data-text");
+			var fichasInfo2 = event.target.getAttribute("data-image");
+			infoCharge(fichasInfo2,fichasInfo1);
 		}
-		if(this.className=='btnOk learn'){
-			var fichasLearn = event.target.getAttribute("data-learnId");
-			learnCharge(event.target.id,fichasLearn);
+		if(this.className=='rightMenu learn'|| this.className == 'btnOk learn'){
+			var fichasLearn1 = event.target.getAttribute("data-text");
+			var fichasLearn2 = event.target.getAttribute("data-image");
+			learnCharge(fichasLearn2,fichasLearn1);
 		}
-		if(this.className=='btnOk fun'){
-			var fichasFun = event.target.getAttribute("data-funId");
-			funCharge(event.target.id,fichasFun);
+		if(this.className=='rightMenu fun'|| this.className == 'btnOk fun'){
+			var fichasFun1 = event.target.getAttribute("data-text");
+			var fichasFun2 = event.target.getAttribute("data-image");
+			funCharge(fichasFun2,fichasFun1);
 			
 		}
-		if(this.className=='btnOk site'){
+		if(this.className=='rightMenu site'){
 			siteCharge(event.target.id,event.target.name);
 		}
 	}

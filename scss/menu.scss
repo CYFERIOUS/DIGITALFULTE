@@ -29,16 +29,18 @@
 	
 	
 	
-	#RotateA:hover + #RotateB input {
+	.rightMenu:hover + .leftMenu input {
+		cursor: pointer;
 		border-radius: 12px;
  		-webkit-box-shadow: 9px -2px 11px 6px rgba(186,222,242,0.59);
 		-moz-box-shadow: 9px -2px 11px 6px rgba(186,222,242,0.59);
 		box-shadow: 9px -2px 11px 6px rgba(186,222,242,0.59);
 		transform: perspective( 600px );
 	}
-         
+    
 	
 	.rightMenu{
+		cursor: pointer;
 		padding-top: 60px;
 		text-align: center;
 		background-color: #909EAD;
@@ -82,6 +84,7 @@
 	}
 	.rightMenu:hover .imageClick{
 			display: block;
+			pointer-events: inherit;
 	}
 
 

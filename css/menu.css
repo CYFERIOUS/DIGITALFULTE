@@ -21,7 +21,8 @@
   border-bottom-style: inset;
   border-bottom-color: #FFF; }
 
-#RotateA:hover + #RotateB input {
+.rightMenu:hover + .leftMenu input {
+  cursor: pointer;
   border-radius: 12px;
   -webkit-box-shadow: 9px -2px 11px 6px rgba(186, 222, 242, 0.59);
   -moz-box-shadow: 9px -2px 11px 6px rgba(186, 222, 242, 0.59);
@@ -29,6 +30,7 @@
   transform: perspective(600px); }
 
 .rightMenu {
+  cursor: pointer;
   padding-top: 60px;
   text-align: center;
   background-color: #909EAD;
@@ -61,7 +63,8 @@
   transition: all 0.4s ease-in-out; }
 
 .rightMenu:hover .imageClick {
-  display: block; }
+  display: block;
+  pointer-events: inherit; }
 
 @media (min-device-width: 600px) and (max-device-width: 1024px) {
   .boxShow {
