@@ -29,8 +29,10 @@ $(function(){
 			funCharge(fichasFun2,fichasFun1);
 			
 		}
-		if(this.className=='rightMenu site'){
-			siteCharge(event.target.id,event.target.name);
+		if(this.className=='rightMenu site' || this.className=='leftMenu site'){
+			var site1 = event.target.getAttribute("data-text");
+			var site2 = event.target.getAttribute("data-url");
+			siteCharge(site1,site2);
 		}
 	}
 	function infoCharge(infok,ficha){
@@ -52,10 +54,12 @@ $(function(){
 		document.getElementById("descriptorFun2").innerHTML = "Description:  " + datosFun.Desc[ficha].Descripcion;
 		document.getElementById("descriptorFun3").innerHTML = "Technology:  " + datosFun.Desc[ficha].Tecnologia;
 	}
-	function siteCharge(){
+	function siteCharge(ficha,url){
 		
-		document.getElementById("spot3").src = "../sessions/ilustracion.html";
-		document.getElementById("descriptorFun1").innerHTML = "Illustration portfolio of NOSSA'S brothers"
+		document.getElementById("spot3").src = "../sessions/"+url+".html";
+		document.getElementById("descriptorFun1").innerHTML = "Company:  " + datosFun.Desc[ficha].Empresa;
+		document.getElementById("descriptorFun2").innerHTML = "Description:  " + datosFun.Desc[ficha].Descripcion;
+		document.getElementById("descriptorFun3").innerHTML = "Technology:  " + datosFun.Desc[ficha].Tecnologia;
 	}
 	$(".boxShow").click(function(){
 		$(".menuInfo").fadeIn();

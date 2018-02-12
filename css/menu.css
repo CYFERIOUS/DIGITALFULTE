@@ -45,26 +45,25 @@
   border-bottom-width: thin;
   border-bottom-style: inset;
   border-bottom-color: #FFF; }
-
-.imageClick {
-  font-size: 10px;
-  font-style: italic;
-  color: aqua;
-  display: none; }
-
-.rightMenu:hover {
-  font-size: 16px;
-  background-color: #6C9ACB;
-  box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out; }
+  .rightMenu:hover {
+    font-size: 16px;
+    background-color: #6C9ACB;
+    box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+  .rightMenu .imageClick {
+    pointer-events: none;
+    font-size: 10px;
+    font-style: italic;
+    color: aqua;
+    display: none; }
 
 .rightMenu:hover .imageClick {
-  display: block;
-  pointer-events: inherit; }
+  pointer-events: none;
+  display: block; }
 
 @media (min-device-width: 600px) and (max-device-width: 1024px) {
   .boxShow {

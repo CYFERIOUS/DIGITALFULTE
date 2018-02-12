@@ -54,17 +54,17 @@
           </div>
           
           	<div class="container">
-          	 <div class="rightMenu fun">Digital Illustratión portfolio.
+          	 <div class="rightMenu site" data-text="5" data-url="ilustracion">Digital Illustratión portfolio.
 					<br><a class="imageClick">click please.</a>
 			 </div>
-            <div class="leftMenu"><input type="image" class="btnOk site" src="../images/thumbnails/bizarro.png" name="3" width="228" height="120" border="0" id="ilustracion" /></div>
+            <div class="leftMenu site"><input type="image" class="btnOk site" data-text="5" data-url="ilustracion" src="../images/thumbnails/bizarro.png" name="3" width="228" height="120" border="0" id="ilustracion" /></div>
             </div>
            
            <div class="container">
-     		 <div class="rightMenu fun">3D character design portfolio.
+     		 <div class="rightMenu fun" data-text="6" data-image="Fun07">3D character design portfolio.
 			 	<br><a class="imageClick">click please.</a>  
 			 </div>
-          <div class="leftMenu"><input type="image" class="btnOk fun" src="../images/thumbnails/3dscene.jpg"  name="Fun07" width="228" height="120" border="0" id="Fun07" /></div>
+          <div class="leftMenu"><input type="image" class="btnOk fun" data-text="6" data-image="Fun07" src="../images/thumbnails/3dscene.jpg"  name="Fun07" width="228" height="120" border="0"/></div>
           </div>
     </div>
 </body>

@@ -29,6 +29,17 @@
             "Empresa": "Digital Flute",
 			"Descripcion":"Hellraiser videogame interface this game was a proposal for a inner project of portfolio+videogame",
 			"Tecnologia":"ActionScript - Gimp"
+	},
+	{
+            "Empresa": "Digital Flute: Please make over the image for select artist",
+			"Descripcion":"Digital Portfolio of NOSSA BROS",
+			"Tecnologia":"Skroller and pencils"
+	},
+	{
+            "Empresa": "Digital Flute",
+			"Descripcion":"3D portfolio",
+			"Tecnologia":"Under Construction"
 	}
+		  
 	]
 }
