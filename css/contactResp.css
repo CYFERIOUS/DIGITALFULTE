@@ -1,3 +1,21 @@
 @charset "utf-8";#mobile{visibility:hidden}@media(min-device-width :600px) and (max-device-width :1024px){#mobile{font-size:x-large;color:#666;visibility:visible}
 #contact{visibility:hidden}}@media only screen and (min-device-width :320px) and (max-device-width :480px){#mobile{font-size:xx-large;color:#666;visibility:visible}
 #contact{visibility:hidden}}
+
+
+.contact{
+	background-color:#909EAD;
+	width:100%;
+	height:auto;
+}
+tr {
+    display: table-row;
+    vertical-align:middle;
+    border-color: inherit;
+}
+td {
+	
+    display: table-cell;
+	width: 33%;
+    vertical-align: inherit;
+}

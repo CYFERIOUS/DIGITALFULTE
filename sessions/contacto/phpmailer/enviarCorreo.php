@@ -1,9 +1,16 @@
 <?php
+include("class.phpmailer.php");
 
+	$nombres=$_POST['nombres'];
+		$cargo=$_POST['cargo'];
+		$empresa=$_POST['empresa'];
+		$email=$_POST['email'];
+		$ciudad=$_POST['ciudad'];
+		$pais=$_POST['pais'];
+		$telefono=$_POST['telefono'];
+		$mensaje=$_POST['mensaje'];
 
-
-function sendMsg() {
-	include("class.phpmailer.php");
+	
    $body= "Envio De E-mail
 <table width='50%'  border='1' cellpadding='5' cellspacing='1' bgcolor='#CCCCCC'>
   <tr>
@@ -55,35 +62,9 @@ $mail->AddBCC("frankdrujes@gmail.com","frankdrujes@gmail.com");
 $mail->Send();
 $mail->ClearAddresses();
 header("Location:gracias.php?envio=ok"); 
-}
 
-if (isset($_POST['submit'])) {
-       	$nombres=$_POST['nombres'];
-		$cargo=$_POST['cargo'];
-		$empresa=$_POST['empresa'];
-		$email=$_POST['email'];
-		$ciudad=$_POST['ciudad'];
-		$pais=$_POST['pais'];
-		$telefono=$_POST['telefono'];
-		$mensaje=$_POST['mensaje'];
-        
-		$secretKey = "6LepvUMUAAAAABpBQkesyP4ePlik7lRNzUVFYGwv";
-        $responseKey = $_POST['g-recaptcha-response'];
-        $userIP = $_SERVER['REMOTE_ADDR'];
 
-        $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$userIP";
-        $response = file_get_contents($url);
-        $response = json_decode($response);
-        if ($response->success){
-			 echo "Verification success. Your name is: $nombres";
-			sendMsg();
-			
-		}
-        else{
-			echo "Verification failed!";
-		}
-            
-    }
+
 
 
 
