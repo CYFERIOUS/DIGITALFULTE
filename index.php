@@ -24,6 +24,7 @@
 <link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
 <script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
 <script src="js/async.js" type="text/javascript"></script>
+<script src="js/loader.js" type="text/javascript"></script>
 <!--ACORDION-->
 <script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
 
@@ -50,34 +51,39 @@
   
   <div class="AccordionPanel" >
     <div id="sektorOne" class="AccordionPanelTab">INFORMATION</div>
-    <div class="AccordionPanelContent" align="left">
-	<?php include("sessions/infoSection.php"); ?></div>
+    <div class="AccordionPanelContent" id="info">
+	</div>
   </div>
   
   <div class="AccordionPanel">
     <div id="sektorTwo" class="AccordionPanelTab">EDUCATION</div>
-    <div class="AccordionPanelContent" align="left">
-	<?php include("sessions/learnSection.php"); ?></div>
+    <div class="AccordionPanelContent" id="learn">
+</div>
   </div>
   
   <div class="AccordionPanel">
     <div id="sektorThree"class="AccordionPanelTab">ENTERTAINMENT</div>
-    <div class="AccordionPanelContent" align="left">
-	<?php include("sessions/funnySection.php"); ?></div>
+    <div class="AccordionPanelContent" id="fun"></div>
   </div>
   
   <div class="AccordionPanel">
     <div class="AccordionPanelTab">CONTACT</div>
-    <div class="AccordionPanelContent"> <?php include("sessions/contact.php"); ?></div>
+    <div class="AccordionPanelContent" id="contacto"></div>
   </div>
 </div>
 <div id="footer">
-	<?php include("sessions/info.php"); ?>
+	
 </div>
 
 </div>
 <script type="text/javascript">
-var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+	var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+	$( "#info" ).load( "sessions/infoSection.php" );
+	$( "#learn" ).load( "sessions/learnSection.php" );
+	$( "#fun" ).load( "sessions/funnySection.php" );
+	$( "#contacto" ).load( "sessions/contact.php" );
+	$( "#footer" ).load( "sessions/info.php" );
+	
 </script>
 </body>
 </html>

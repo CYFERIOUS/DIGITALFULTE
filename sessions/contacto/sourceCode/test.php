@@ -1,7 +1,7 @@
 <?php
     if (isset($_POST['submit'])) {
         $username = $_POST['username'];
-        $secretKey = "6LccCSMUAAAAAKkTzemiArEQkQ5hKcgKJG8NQO0-";
+        $secretKey = "6LepvUMUAAAAABpBQkesyP4ePlik7lRNzUVFYGwv";
         $responseKey = $_POST['g-recaptcha-response'];
         $userIP = $_SERVER['REMOTE_ADDR'];
 
@@ -19,10 +19,10 @@
         <title>PHP ReCAPTCHA Tutorial</title>
     </head>
     <body>
-        <form action="index.php" method="post">
+        <form action="test.php" method="post">
             <input type="text" name="username" placeholder="What is your name?">
             <input type="submit" name="submit" value="Save">
-            <div class="g-recaptcha" data-sitekey="6LccCSMUAAAAAM40ryB3mDb2f8DmhcrJR98yi8RM"></div>
+            <div class="g-recaptcha" data-sitekey="6LepvUMUAAAAAAYQ6_9ItBa6TFX6CWKl7SL5i-LK"></div>
         </form>
         <script src='https://www.google.com/recaptcha/api.js'></script>
     </body>
