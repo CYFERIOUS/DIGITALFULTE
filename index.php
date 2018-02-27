@@ -77,7 +77,16 @@
 
 </div>
 <script type="text/javascript">
-	var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+	 var reloadContact1 = { useFixedPanelHeights: true, defaultPanel: 0 }
+	 var reloadContact2 = { useFixedPanelHeights: true, defaultPanel: 4 }
+	
+	 if(window.location=='http://www.dgflute.com/#contacto'){
+	   alert("working");
+		new Spry.Widget.Accordion("Accordion1",reloadContact2);
+	}else{
+		new Spry.Widget.Accordion("Accordion1",reloadContact1);
+	}
+	
 	$( "#info" ).load( "sessions/infoSection.php" );
 	$( "#learn" ).load( "sessions/learnSection.php" );
 	$( "#fun" ).load( "sessions/funnySection.php" );

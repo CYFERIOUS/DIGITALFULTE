@@ -79,7 +79,7 @@ include("class.phpmailer.php");
 		}else{
 			echo "
             <script type=\"text/javascript\">
-            	alert('WARNING:CYBERPUNK ROBOT ALERT');
+            	alert('WARNING:PLEASE CHECK THE IM NOT ROBOT CHECKBOX');
 				location.href='http://www.dgflute.com#contacto';
             </script>
         	";
