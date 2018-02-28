@@ -18,13 +18,15 @@ function init() {
 
 	 $( "#bigPapaLoader" ).fadeOut( "slow" );
 	
+	
+	 
 }
 
 
 window.onload = function() {
     
 	
-	 myVar = setTimeout(init, 1000);
+	 myVar = setTimeout(init, 3000);
 	 
 	
  

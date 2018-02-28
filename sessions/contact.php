@@ -20,6 +20,8 @@
 			<td>
 				
 				 <div style=" text-align: center;">
+					 
+					 <input type="image" src="../images/thumbnails/unitedCyberPunks.png" name="Image1" width="58" height="56" border="0" id="Image1" />
 					<h2>Digital Flute Studio</h2>
       		
         			Phone (+57-1) 6 179 108<br>
@@ -318,7 +320,7 @@
 					<input type="submit" name="Submit" value="Send mail"> <input type="reset" name="Submit2" value="Restore" />
 				
 				</form>
-				<script src='https://www.google.com/recaptcha/api.js'></script>
+				<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
 		    </td>
 			
 			

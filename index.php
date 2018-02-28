@@ -24,7 +24,7 @@
 <link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
 <script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
 <script src="js/async.js" type="text/javascript"></script>
-<script src="js/loader.js" type="text/javascript"></script>
+
 <!--ACORDION-->
 <script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
 
@@ -76,23 +76,7 @@
 </div>
 
 </div>
-<script type="text/javascript">
-	 var reloadContact1 = { useFixedPanelHeights: true, defaultPanel: 0 }
-	 var reloadContact2 = { useFixedPanelHeights: true, defaultPanel: 4 }
-	
-	 if(window.location=='http://www.dgflute.com/#contacto'){
-	   alert("working");
-		new Spry.Widget.Accordion("Accordion1",reloadContact2);
-	}else{
-		new Spry.Widget.Accordion("Accordion1",reloadContact1);
-	}
-	
-	$( "#info" ).load( "sessions/infoSection.php" );
-	$( "#learn" ).load( "sessions/learnSection.php" );
-	$( "#fun" ).load( "sessions/funnySection.php" );
-	$( "#contacto" ).load( "sessions/contact.php" );
-	$( "#footer" ).load( "sessions/info.php" );
-	
-</script>
+<script src="js/sektor.js" type="text/javascript"></script>
+<script src="js/loader.js" type="text/javascript"></script>
 </body>
 </html>
