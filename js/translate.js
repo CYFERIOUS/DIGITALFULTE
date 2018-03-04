@@ -6,7 +6,6 @@ $(function(){
 	
 	$(".boxShow").hide();
 	$(".rightMenu").bind('click', {}, cargas);
-	$(".rightMenu").bind('click', {}, cargas);
 	$(".btnOk").bind('click', {}, cargas);
 	
 	function cargas(event){
