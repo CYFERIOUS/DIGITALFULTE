@@ -7,7 +7,7 @@
 </head>
 <body>
 <div id="pie">
-
+			<div id="mobileContact"><a href="mailto:dgflute@gmail.com">dgflute@gmail.com</a> </div>
           <div id="data">
 			  <strong>DIGITAL FLUTE STUDIO.</strong><br />
 Phone (57-1) 617-9108

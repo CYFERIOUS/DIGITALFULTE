@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<div class="boxShow" align="center"><iframe class="boxShow" id="spot3" src = "" frameborder="0" scrolling="no"></iframe><div id="descriptorFun1" class="descriptors"></div><p><div id="descriptorFun2" class="descriptors"></div></p><p><div id="descriptorFun3" class="descriptors"></div></p><br> &lt; <a>&#129172; back to menu</a></div>
+<div class="boxShow" align="center"><iframe id="spot3" src = "" frameborder="0" scrolling="no"></iframe><div id="descriptorFun1" class="descriptors"></div><p><div id="descriptorFun2" class="descriptors"></div></p><p><div id="descriptorFun3" class="descriptors"></div></p><br> &lt; <a>&#129172; back to menu</a></div>
  
  <div class="menuInfo">
  

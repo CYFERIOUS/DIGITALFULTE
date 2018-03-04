@@ -24,13 +24,10 @@
 <link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
 <script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
 <script src="js/async.js" type="text/javascript"></script>
-
 <!--ACORDION-->
 <script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
-
-
 </head>
-
+	
 <body>
 	<div id="bigPapaLoader">
   <div id="curtain">
@@ -42,39 +39,33 @@
   <div id="magenta"></div>
 </div>
 <div id="container" align="center">
-<div id="Accordion1" class="Accordion" tabindex="0">
+	<div id="Accordion1" class="Accordion" tabindex="0">
+		<div class="AccordionPanel">
+			<div class="AccordionPanelspecialTab">DIE ZAUBERFLÖTE</div>
+			<div class="AccordionPanelspecialContent" id="sektorZero"><iframe  id="firstIntro" src="sessions/inicio/webgl/index.html"  scrolling="no" frameborder="0" ></iframe></div>
+		</div>
 
-<div class="AccordionPanel">
-    <div class="AccordionPanelspecialTab">DIE ZAUBERFLÖTE</div>
-    <div class="AccordionPanelspecialContent" id="sektorZero"><iframe  id="firstIntro" src="sessions/inicio/webgl/index.html"  scrolling="no" frameborder="0" ></iframe></div>
-  </div>
-  
-  <div class="AccordionPanel" >
-    <div id="sektorOne" class="AccordionPanelTab">INFORMATION</div>
-    <div class="AccordionPanelContent" id="info">
+		<div class="AccordionPanel" >
+			<div id="sektorOne" class="AccordionPanelTab">INFORMATION</div>
+			<div class="AccordionPanelContent" id="info"></div>
+		</div>
+
+		<div class="AccordionPanel">
+			<div id="sektorTwo" class="AccordionPanelTab">EDUCATION</div>
+			<div class="AccordionPanelContent" id="learn"></div>
+		</div>
+
+		<div class="AccordionPanel">
+			<div id="sektorThree"class="AccordionPanelTab">ENTERTAINMENT</div>
+			<div class="AccordionPanelContent" id="fun"></div>
+		</div>
+
+		<div class="AccordionPanel" id="contact">
+			<div class="AccordionPanelTab">CONTACT</div>
+			<div class="AccordionPanelContent" id="contacto"></div>
+		</div>
 	</div>
-  </div>
-  
-  <div class="AccordionPanel">
-    <div id="sektorTwo" class="AccordionPanelTab">EDUCATION</div>
-    <div class="AccordionPanelContent" id="learn">
-</div>
-  </div>
-  
-  <div class="AccordionPanel">
-    <div id="sektorThree"class="AccordionPanelTab">ENTERTAINMENT</div>
-    <div class="AccordionPanelContent" id="fun"></div>
-  </div>
-  
-  <div class="AccordionPanel">
-    <div class="AccordionPanelTab">CONTACT</div>
-    <div class="AccordionPanelContent" id="contacto"></div>
-  </div>
-</div>
-<div id="footer">
-	
-</div>
-
+	<div id="footer"></div>
 </div>
 <script src="js/sektor.js" type="text/javascript"></script>
 <script src="js/loader.js" type="text/javascript"></script>

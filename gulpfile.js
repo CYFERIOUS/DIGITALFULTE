@@ -12,11 +12,17 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('css'));
 });
 
+gulp.task('sassIlustre', function() {
+    return gulp.src('scss/mainKamus.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('sessions/ilustre/kamusFolio/css'));
+});
+
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-    gulp.watch('scss/*.scss', ['sass']);
+    gulp.watch('scss/*.scss', ['sass','sassIlustre']);
 });
 
 // Default Task
-gulp.task('default', [ 'sass','watch']);
+gulp.task('default', [ 'sass','watch','sassIlustre']);

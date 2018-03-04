@@ -1,200 +1,222 @@
 @charset "utf-8";
-a{
-	color:#666;
-	font-size:18px;
-	font-weight:bolder;
-}
-.scrollerTittle{
-	display: none;
-}
-.descriptors{
-	color:#666;
-	font-size:18px;
-	font-weight:bolder;
-	}
+
+@mixin big-content($mobileScroll,$footer1,$footer2,$footer3){
 	
-body {
-	margin: 0px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #FFFFFF;
-	padding: 0px;
-	background-color: #FFFFFF;
-	overflow: hidden;
-}
-#firstIntro{
- width:100%; 
- height:690px;
-}
-iframe{
-    overflow:scroll;
-}
+			body {
+				margin: 0px;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				color: #FFFFFF;
+				padding: 0px;
+				background-color: #FFFFFF;
+				overflow: hidden;
+			
+				.scrollerTittle{
+					display: $mobileScroll;
+				}
+				.descriptors{
+					color:#666;
+					font-size:18px;
+					font-weight:bolder;
+				}
+				
+				#firstIntro{
+			 		width:100%; 
+			 		height:690px;
+				}
+				
+				#container{
+					background-color:#FFF;
+				}
+				.btnOk {
+					cursor:pointer;
+				}
+				.boxShow{
+					width:920px;
+					height:500px;
+					background-color:#FFF;
+					cursor:pointer;
+					position:relative;
+					animation:myMove 3s;
+					animation-duration:1s;
+					/* Firefox */
+					-moz-animation:myMove 3s;
+					-moz-animation-duration:1s;
+					/* Safari and Chrome */
+					-webkit-animation:myMove 3s;
+					-webkit-animation-duration:1s;
+					/* Opera */
+					-o-animation:myMove 3s;
+					-o-animation-duration:1s;
+					a{
+						color: #03b7fa;
+						font-size:18px;
+						font-weight:bolder;
 
-table{
-	background-color:#909EAD;
-}
-#container{
-	background-color:#FFF;
-}
-.btnOk {
-	cursor:pointer;
-}
-.boxShow{
-
-	width:920px;
-	height:500px;
-	background-color:#FFF;
-	cursor:pointer;
-	position:relative;
-	animation:myMove 3s;
-	animation-duration:1s;
-	/* Firefox */
-	-moz-animation:myMove 3s;
-	-moz-animation-duration:1s;
-	/* Safari and Chrome */
-	-webkit-animation:myMove 3s;
-	-webkit-animation-duration:1s;
-	/* Opera */
-	-o-animation:myMove 3s;
-	-o-animation-duration:1s;
-	a{
-		color: #03b7fa;
-	}
-}
-
-#footer{
-	width: 100%;
-	position: absolute;
-	bottom: 0px;
-}
-#pie{
-	background-color:#909EAD;
-	width:100%;
-	height:60px;
-	border-style: solid;
-    border-color: #0C95E8 #909EAD #909EAD #909EAD;
-	border-width: 1px;
-	padding: 5px 0 5px 0;
-}
-#icon{
-	padding-top:5px;
+					}
+					iframe{
+						width:920px;
+						height:450px;
+					}
+				}
+				#footer{
+					width: 100%;
+					position: absolute;
+					bottom: 0px;
+					#pie{
+						background-color:#909EAD;
+						width:100%;
+						height:60px;
+						border-style: solid;
+						border-color: #0C95E8 #909EAD #909EAD #909EAD;
+						border-width: 1px;
+						padding: 5px 0 5px 0;
+						#mobileContact{
+							padding-top: 5px;
+							display: $footer1;
+							a{
+								color:#FFF !important;
+								font-size:36px !important;
+								font-weight: bolder;
+							}
+						}
+						#data{
+							display: $footer2;
+							padding-top:20px;
+							padding-left:100px;
+							text-align:left;
+							float:left;
+							width:80%;
+						}
+						#icon{
+							display:$footer3;
+							padding-top:5px;
+						}
+					}
+				}
+				
+				table{
+					background-color:#909EAD;
+				}
 	
-}
-#data{
-	padding-top:20px;
-	padding-left:100px;
-	text-align:left;
-	float:left;
-	width:80%;
-}
+			}
+			@-webkit-keyframes myMove
+			{
+				from {left:950px;}
+				to {left:0px;}
+			}
 
-
-@-webkit-keyframes myMove
-{
-from {left:950px;}
-to {left:0px;}
-}
-
-/* Standard syntax */
-@keyframes myMove
-{
-from {left:950px;}
-to {left:0px;}
-}
-
-@media (min-device-width : 600px) and (max-device-width : 1024px) {	
-	#firstIntro{
- 		width:100%; 
- 		height:1000px;
-	}
-	a{
-		color:#666;
-		font-size:35px;
-		font-weight:bolder;
-	}
-.descriptors{
-		color:#666;
-		font-size:22px;
-		font-weight:bolder;
-	}
-
-.scrollerTittle{
-	text-align:center;
-	display: block;
-	}
-	
-	
-.boxShow{
-	-webkit-animation:myMove 5s infinite; /* Chrome, Safari, Opera */
-	animation:myMove 5s  infinite;
-	width:600px;
-	height:500px;
-	background-color:#FFF;
-	cursor:pointer;
-	position:relative;
-	animation:myMove 3s;
-	animation-duration:1s;
-	/* Firefox */
-	-moz-animation:myMove 3s;
-	-moz-animation-duration:1s;
-	/* Safari and Chrome */
-	-webkit-animation:myMove 3s;
-	-webkit-animation-duration:1s;
-	/* Opera */
-	-o-animation:myMove 3s;
-	-o-animation-duration:1s;
-}
-#icon{
-	float:right;
-	padding-top:5px;
+			/* Standard syntax */
+			@keyframes myMove
+			{
+				from {left:950px;}
+				to {left:0px;}
+			}
 	
 }
 
+
+
+//MEDIA CALLERS
+
+
+
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2){
+
+	@include big-content(block,block,none,none);
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	a{
-		color:#666;
-		font-size:35px;
-		font-weight:bolder;
-	}
-	
-	.descriptors{
-		color:#666;
-		font-size:28px;
-		font-weight:bolder;
-	}
+/* iPhone 6 portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2){
+    @include big-content(block,block,none,none);
+}
 
-	.scrollerTittle{
-		color:#666;
-		font-size:12px;
-		display: block;
-	}
-	.btnOk {
-		cursor:pointer;
-		width:100%;
-		height:auto;
-	}
-	#data{
-		padding-top:3px;
-		padding-left:10%;
-		text-align:center;
-		float:left;
-		width:80%;
-		height:auto;
-	}	
-	#pie{
-		background-color:#999;
-		font-size:large;
-		width:100%;
-		height:300px;
-	}
-	#icon{
-		visibility:hidden;
-	}
-	#imageFoot{
-		visibility:hidden;
-	}
+/* iPhone 6 Plus landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3){
+    @include big-content(block,block,none,none);
+}
+
+/* iPhone 6 Plus portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 3){
+@include big-content(block,block,none,none);
+    
+}
+
+/* iPhone 6 and 6 Plus */
+@media only screen
+  and (max-device-width: 640px),
+  only screen and (max-device-width: 667px),
+  only screen and (max-width: 480px){
+    @include big-content(block,block,none,none);
+}
+
+/*/ Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+   @include big-content(block,block,none,none);
+}
+
+/*/ Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	
+}
+
+/*/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  @include big-content(none,none,block,block);
+	
+	
+}
+
+
+/*/ Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-height: 900px) {
+    @include big-content(none,none,block,block);
+		#sektorZero{
+  			top:0;
+  			left: 0;
+  			width: 100%;
+  			height: 600px;
+		}
+		.descriptors{
+			color:#666;
+			font-size:12px !important;
+			font-weight:bolder;
+		}
+		.boxshow{
+			iframe{
+				height: 450px !important;
+			}
+			
+			a{
+				
+				font-size:12px !important;
+			}	
+		}
+		
+}
+
+
+/*/ Extre Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1441px) {
+	 @include big-content(none,none,block,block);
+	
 }
 
 
