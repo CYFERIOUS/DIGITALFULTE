@@ -1,25 +1,33 @@
 /*
-Error: Invalid CSS after "		float::left": expected "{", was ";"
-        on line 23 of C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss
+Error: Invalid CSS after "				float::left": expected "{", was ";"
+        on line 17 of C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss
 
-18: 	.leftMenu{
-19: 		
-20: 		left:0px;
-21: 		width:228px;
-22: 		height:120px;
-23: 		float::left;
-24: 		border-bottom-width: thin;
-25: 		border-bottom-style: inset;
-26: 		border-bottom-color: #FFF;
-27: 		
-28: 	}
+12: 			height:120px;
+13: 			&.leftMenu{
+14: 				left:0px;
+15: 				width:228px;
+16: 				height:120px;
+17: 				float::left;
+18: 				border-bottom-width: thin;
+19: 				border-bottom-style: inset;
+20: 				border-bottom-color: #FFF;
+21: 			}
+22: 
 
 Backtrace:
-C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss:23
+C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss:17
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:665:in `block'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
@@ -42,4 +50,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"		float::left\": expected \"{\", was \";\"\A         on line 23 of C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss\A \A 18: 	.leftMenu{\A 19: 		\A 20: 		left:0px;\A 21: 		width:228px;\A 22: 		height:120px;\A 23: 		float::left;\A 24: 		border-bottom-width: thin;\A 25: 		border-bottom-style: inset;\A 26: 		border-bottom-color: #FFF;\A 27: 		\A 28: 	}"; }
+  content: "Error: Invalid CSS after \"				float::left\": expected \"{\", was \";\"\A         on line 17 of C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss\A \A 12: 			height:120px;\A 13: 			&.leftMenu{\A 14: 				left:0px;\A 15: 				width:228px;\A 16: 				height:120px;\A 17: 				float::left;\A 18: 				border-bottom-width: thin;\A 19: 				border-bottom-style: inset;\A 20: 				border-bottom-color: #FFF;\A 21: 			}\A 22: "; }

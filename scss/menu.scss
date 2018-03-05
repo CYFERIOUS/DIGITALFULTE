@@ -1,92 +1,80 @@
-	.boxShow{
-		width:950px;
-		height:450px;
-	}
+@mixin menu-content(){
+	
+}
 	.menuInfo{
 		width:970px;
 		height:600px;
 		overflow-y:scroll;
 		
-		
-	}
-	.container{
-		top:0px;
-		width:950px;
-		height:120px;
-		
-	}
-	.leftMenu{
-		
-		left:0px;
-		width:228px;
-		height:120px;
-		float::left;
-		border-bottom-width: thin;
-		border-bottom-style: inset;
-		border-bottom-color: #FFF;
-		
-	}
-	
-	
-	
-	.rightMenu:hover + .leftMenu input {
-		cursor: pointer;
-		border-radius: 12px;
- 		-webkit-box-shadow: 9px -2px 11px 6px rgba(186,222,242,0.59);
-		-moz-box-shadow: 9px -2px 11px 6px rgba(186,222,242,0.59);
-		box-shadow: 9px -2px 11px 6px rgba(186,222,242,0.59);
-		transform: perspective( 600px );
-	}
-    
-	
-	.rightMenu{
-		cursor: pointer;
-		padding-top: 60px;
-		text-align: center;
-		background-color: #909EAD;
-		-webkit-border-radius: 12px;
-		-moz-border-radius: 12px;
-		border-radius: 12px;
-		font-size: 12px;
-		color: #FFF;
-		width: 710px;
-		height: 60px;
-		float: right;
-		border-bottom-width: thin;
-		border-bottom-style: inset;
-		border-bottom-color: #FFF;
-		
-		&:hover{
-			font-size: 16px;
-			background-color: #6C9ACB;
-			box-shadow: 
-			inset 0 0 0 16px rgba(255,255,255,0.1),
-			0 1px 2px rgba(0,0,0,0.1);
-			-webkit-transition: all 0.4s ease-in-out;
-			-moz-transition: all 0.4s ease-in-out;
-			-o-transition: all 0.4s ease-in-out;
-			-ms-transition: all 0.4s ease-in-out;
-			transition: all 0.4s ease-in-out;
+		.container{
+			top:0px;
+			width:950px;
+			height:120px;
+			&.leftMenu{
+				left:0px;
+				width:228px;
+				height:120px;
+				float::left;
+				border-bottom-width: thin;
+				border-bottom-style: inset;
+				border-bottom-color: #FFF;
+			}
+
 		}
-		
-		.imageClick{
-			pointer-events: none;
-			font-size: 10px; 
-			font-style: italic; 
-			color:aqua;
-			display: none;
-		}
-	}
-	
-	
-	
-	.rightMenu:hover .imageClick{
-			pointer-events: none;
+		.rightMenu{
 			display: block;
-			
+			cursor: pointer;
+			padding-top: 60px;
+			text-align: center;
+			background-color: #909EAD;
+			-webkit-border-radius: 12px;
+			-moz-border-radius: 12px;
+			border-radius: 12px;
+			font-size: 12px;
+			color: #FFF;
+			width: 710px;
+			height: 60px;
+			float: right;
+			border-bottom-width: thin;
+			border-bottom-style: inset;
+			border-bottom-color: #FFF;
+		
+			&:hover{
+				font-size: 16px;
+				background-color: #6C9ACB;
+				box-shadow: 
+				inset 0 0 0 16px rgba(255,255,255,0.1),
+				0 1px 2px rgba(0,0,0,0.1);
+				-webkit-transition: all 0.4s ease-in-out;
+				-moz-transition: all 0.4s ease-in-out;
+				-o-transition: all 0.4s ease-in-out;
+				-ms-transition: all 0.4s ease-in-out;
+				transition: all 0.4s ease-in-out;
+			}
+			&:hover + .leftMenu input {
+				cursor: pointer;
+				border-radius: 12px;
+				-webkit-box-shadow: 9px -2px 11px 6px rgba(186,222,242,0.59);
+				-moz-box-shadow: 9px -2px 11px 6px rgba(186,222,242,0.59);
+				box-shadow: 9px -2px 11px 6px rgba(186,222,242,0.59);
+				transform: perspective( 600px );
+			}
+		
+			.imageClick{
+				pointer-events: none;
+				font-size: 10px; 
+				font-style: italic; 
+				color:aqua;
+				display: none;
+			}
+			&:hover .imageClick{
+				pointer-events: none;
+				display: block;
+			}
+		}
 	}
-
-
+	
+	
 
 @media (min-device-width : 600px) and (max-device-width : 1024px) {
 	.boxShow{
@@ -153,4 +141,85 @@
 		visibility:hidden;
 	}
 }
+
+//MEDIA CALLERS
+
+
+
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2){
+
+	
+}
+
+/* iPhone 6 portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2){
+   
+}
+
+/* iPhone 6 Plus landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3){
+  
+}
+
+/* iPhone 6 Plus portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 3){
+
+    
+}
+
+/* iPhone 6 and 6 Plus */
+@media only screen
+  and (max-device-width: 640px),
+  only screen and (max-device-width: 667px),
+  only screen and (max-width: 480px){
+   
+}
+
+/*/ Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/*/ Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	
+}
+
+/*/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+	
+	
+}
+
+
+/*/ Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-height: 900px) {
+   
+		
+}
+
+
+/*/ Extre Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1441px) {
+	 
+}
+
 

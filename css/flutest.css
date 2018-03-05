@@ -45,6 +45,8 @@
       body .boxShow iframe {
         width: 920px;
         height: 450px; }
+    body #contact {
+      display: none; }
     body #footer {
       width: 100%;
       position: absolute;
@@ -76,6 +78,14 @@
           padding-top: 5px; }
     body table {
       background-color: #909EAD; }
+      body table tr {
+        display: table-row;
+        vertical-align: middle;
+        border-color: inherit; }
+      body table td {
+        display: table-cell;
+        width: 33%;
+        vertical-align: inherit; }
   @-webkit-keyframes myMove {
     from {
       left: 950px; }
@@ -135,6 +145,8 @@
       body .boxShow iframe {
         width: 920px;
         height: 450px; }
+    body #contact {
+      display: none; }
     body #footer {
       width: 100%;
       position: absolute;
@@ -166,6 +178,14 @@
           padding-top: 5px; }
     body table {
       background-color: #909EAD; }
+      body table tr {
+        display: table-row;
+        vertical-align: middle;
+        border-color: inherit; }
+      body table td {
+        display: table-cell;
+        width: 33%;
+        vertical-align: inherit; }
   @-webkit-keyframes myMove {
     from {
       left: 950px; }
@@ -225,6 +245,8 @@
       body .boxShow iframe {
         width: 920px;
         height: 450px; }
+    body #contact {
+      display: none; }
     body #footer {
       width: 100%;
       position: absolute;
@@ -256,6 +278,14 @@
           padding-top: 5px; }
     body table {
       background-color: #909EAD; }
+      body table tr {
+        display: table-row;
+        vertical-align: middle;
+        border-color: inherit; }
+      body table td {
+        display: table-cell;
+        width: 33%;
+        vertical-align: inherit; }
   @-webkit-keyframes myMove {
     from {
       left: 950px; }
@@ -315,6 +345,8 @@
       body .boxShow iframe {
         width: 920px;
         height: 450px; }
+    body #contact {
+      display: none; }
     body #footer {
       width: 100%;
       position: absolute;
@@ -346,6 +378,14 @@
           padding-top: 5px; }
     body table {
       background-color: #909EAD; }
+      body table tr {
+        display: table-row;
+        vertical-align: middle;
+        border-color: inherit; }
+      body table td {
+        display: table-cell;
+        width: 33%;
+        vertical-align: inherit; }
   @-webkit-keyframes myMove {
     from {
       left: 950px; }
@@ -405,6 +445,8 @@
       body .boxShow iframe {
         width: 920px;
         height: 450px; }
+    body #contact {
+      display: none; }
     body #footer {
       width: 100%;
       position: absolute;
@@ -436,6 +478,14 @@
           padding-top: 5px; }
     body table {
       background-color: #909EAD; }
+      body table tr {
+        display: table-row;
+        vertical-align: middle;
+        border-color: inherit; }
+      body table td {
+        display: table-cell;
+        width: 33%;
+        vertical-align: inherit; }
   @-webkit-keyframes myMove {
     from {
       left: 950px; }
@@ -495,6 +545,8 @@
       body .boxShow iframe {
         width: 920px;
         height: 450px; }
+    body #contact {
+      display: none; }
     body #footer {
       width: 100%;
       position: absolute;
@@ -526,6 +578,14 @@
           padding-top: 5px; }
     body table {
       background-color: #909EAD; }
+      body table tr {
+        display: table-row;
+        vertical-align: middle;
+        border-color: inherit; }
+      body table td {
+        display: table-cell;
+        width: 33%;
+        vertical-align: inherit; }
   @-webkit-keyframes myMove {
     from {
       left: 950px; }
@@ -586,6 +646,8 @@
       body .boxShow iframe {
         width: 920px;
         height: 450px; }
+    body #contact {
+      display: block; }
     body #footer {
       width: 100%;
       position: absolute;
@@ -617,6 +679,14 @@
           padding-top: 5px; }
     body table {
       background-color: #909EAD; }
+      body table tr {
+        display: table-row;
+        vertical-align: middle;
+        border-color: inherit; }
+      body table td {
+        display: table-cell;
+        width: 33%;
+        vertical-align: inherit; }
   @-webkit-keyframes myMove {
     from {
       left: 950px; }
@@ -676,6 +746,8 @@
       body .boxShow iframe {
         width: 920px;
         height: 450px; }
+    body #contact {
+      display: block; }
     body #footer {
       width: 100%;
       position: absolute;
@@ -707,6 +779,14 @@
           padding-top: 5px; }
     body table {
       background-color: #909EAD; }
+      body table tr {
+        display: table-row;
+        vertical-align: middle;
+        border-color: inherit; }
+      body table td {
+        display: table-cell;
+        width: 33%;
+        vertical-align: inherit; }
   @-webkit-keyframes myMove {
     from {
       left: 950px; }
@@ -779,6 +859,8 @@
       body .boxShow iframe {
         width: 920px;
         height: 450px; }
+    body #contact {
+      display: block; }
     body #footer {
       width: 100%;
       position: absolute;
@@ -810,6 +892,14 @@
           padding-top: 5px; }
     body table {
       background-color: #909EAD; }
+      body table tr {
+        display: table-row;
+        vertical-align: middle;
+        border-color: inherit; }
+      body table td {
+        display: table-cell;
+        width: 33%;
+        vertical-align: inherit; }
   @-webkit-keyframes myMove {
     from {
       left: 950px; }
