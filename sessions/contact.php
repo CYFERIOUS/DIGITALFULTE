@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>dgflute</title>
 
-<link href="../css/flutest.css" rel="stylesheet" type="text/css" />
+
 
 </head>
 
@@ -41,19 +41,19 @@
 			<td>
 				 
 			 	<form action="sessions/contacto/phpmailer/enviarCorreo.php" method="post" name="form1" id="form1" onsubmit="MM_validateForm('nombres','','R','empresa','','R','email','','RisEmail','ciudad','','R','telefono','','RisNum','mensaje','','R');return document.MM_returnValue">
-				 	Name
+				 	Name<br>
           		  	<input name="nombres" type="text" id="nombres" size="39" border="0" /><br>
 				 
-				  	Charge
+				  	Charge<br>
           		  	<input name="cargo" type="text" id="cargo" size="39" border="0"/><br>
 				 
-				  	Enterprise
+				  	Enterprise<br>
           		 	<input name="empresa" type="text" id="empresa" size="39" border="0"/><br>
 				 
-				 	E-mail
+				 	E-mail<br>
           		 	<input name="email" type="text" size="39" id="email" border="0"/><br>
 				 
-				 	Country
+				 	Country<br>
           		
 						<select name="pais" id="pais" border="0">
 							<option value="NoPlace" >:::::::::::::::::::::Choose your country:::::::::::::::::::::</option>
@@ -309,9 +309,9 @@
 				 
 					City<br>
             			<input name="ciudad" type="text" id="ciudad" size="39" border="0" /><br>
-				 	Phone
-            			<input name="telefono" type="text" size="39" id="telefono" border="0"/><br>
-					Message:
+				 	Phone<br>
+            			<input name="telefono" type="text" size="40" id="telefono" border="0"/><br>
+					Message:<br>
             		<textarea name="mensaje"  cols="40" rows="7" id="mensaje" border="0"></textarea><br>
 				
 				 	<h5>All form spaces are required,we dont send massive mail to our costumers</h5>

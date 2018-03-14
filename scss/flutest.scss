@@ -111,6 +111,7 @@
 						width: 33%;
     					vertical-align: inherit;
 					}
+					
 				}
 	
 			}
@@ -131,106 +132,6 @@
 
 
 
-//MEDIA CALLERS
 
-
-
-/* iPhone 6 landscape */
-@media only screen and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 2){
-
-	@include big-content(block,block,none,none,none);
-}
-
-/* iPhone 6 portrait */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2){
-    @include big-content(block,block,none,none,none);
-}
-
-/* iPhone 6 Plus landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 3){
-    @include big-content(block,block,none,none,none);
-}
-
-/* iPhone 6 Plus portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 3){
-@include big-content(block,block,none,none,none);
-    
-}
-
-/* iPhone 6 and 6 Plus */
-@media only screen
-  and (max-device-width: 640px),
-  only screen and (max-device-width: 667px),
-  only screen and (max-width: 480px){
-    @include big-content(block,block,none,none,none);
-}
-
-/*/ Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767px) {
-   @include big-content(block,block,none,none,none);
-}
-
-/*/ Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991px) {
-	
-	
-}
-
-/*/ Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199px) {
-  @include big-content(none,none,block,block,block);
-	
-	
-}
-
-
-/*/ Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) and (max-height: 900px) {
-    @include big-content(none,none,block,block,block);
-		#sektorZero{
-  			top:0;
-  			left: 0;
-  			width: 100%;
-  			height: 600px;
-		}
-		.descriptors{
-			color:#666;
-			font-size:12px !important;
-			font-weight:bolder;
-		}
-		.boxshow{
-			iframe{
-				height: 450px !important;
-			}
-			
-			a{
-				
-				font-size:12px !important;
-			}	
-		}
-		
-}
-
-
-/*/ Extre Extra large devices (large desktops, 1440px and up)*/
-@media (min-width: 1441px) {
-	 @include big-content(none,none,block,block,block);
-	
-}
 
 

@@ -72,7 +72,7 @@
 	  outline:none;
 	}
 	.AccordionPanelspecialContent{
-	  height: 700px;
+	  height: inherit;
 	  width: 100%;
 	  color: #FFFFFF;
 	  overflow: auto;

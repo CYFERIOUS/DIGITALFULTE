@@ -1,6 +1,6 @@
 @mixin menu-content(){
 	
-}
+
 	.menuInfo{
 		width:970px;
 		height:600px;
@@ -74,152 +74,10 @@
 		}
 	}
 	
-	
-
-@media (min-device-width : 600px) and (max-device-width : 1024px) {
-	.boxShow{
-		width:600px;
-		height:340px;
-	}
-	.menuInfo{
-		top:0px;
-		width:600px;
-		height:auto;
-	}
-	.container{
-		top:0px;
-		width:720px;
-		height:120px;
-	}
-	.leftMenu{
-		top:0px;
-		left:0px;
-		width:228px;
-		height:120px;
-		float::left;
-		border-bottom-width: thin;
-		border-bottom-style: inset;
-		border-bottom-color: #FFF;
-	}
-	.rightMenu{
-		padding-top: 60px;
-		background-color:#909EAD;
-		font-size:18px;
-		color:#FFF;
-		width:492px;
-		height:60px;
-		float:right;
-		border-bottom-width: thin;
-		border-bottom-style: inset;
-		border-bottom-color: #FFF;
-	}
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.boxShow{
-		width:320px;
-		height:150px;
-	}
-	.menuInfo{
-		top:0px;
-		width:100%;
-		height:auto;
-		left:30%;
-	}
-	.container{
-		top:0px;
-		width:100%;
-		height:auto;
-		
-	}
-	.leftMenu{
-		top:0px;
-		width:100%;
-		height:auto;
-	}
-	.rightMenu{
-		visibility:hidden;
-	}
-}
-
-//MEDIA CALLERS
-
-
-
-/* iPhone 6 landscape */
-@media only screen and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 2){
-
-	
-}
-
-/* iPhone 6 portrait */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2){
-   
-}
-
-/* iPhone 6 Plus landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 3){
-  
-}
-
-/* iPhone 6 Plus portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 3){
-
-    
-}
-
-/* iPhone 6 and 6 Plus */
-@media only screen
-  and (max-device-width: 640px),
-  only screen and (max-device-width: 667px),
-  only screen and (max-width: 480px){
-   
-}
-
-/*/ Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767px) {
-  
-}
-
-/*/ Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991px) {
-	
-	
-}
-
-/*/ Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199px) {
-  
-	
-	
 }
 
 
-/*/ Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) and (max-height: 900px) {
-   
-		
-}
 
 
-/*/ Extre Extra large devices (large desktops, 1440px and up)*/
-@media (min-width: 1441px) {
-	 
-}
 
 

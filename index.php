@@ -5,7 +5,7 @@
 <title>Do::Re::Mi::Fa::Sol::La::Si::</title>
 <!--TITULO MOVEMENT-->
 <script src="js/move.js"></script>
-<script src="js/loader.js"></script>
+
 <!--METATAGS-->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="publicidad, web design, multimedia, graphic design, bogota, advertising">
@@ -19,8 +19,8 @@
 
 <link rel="SHORCUT ICON" href = "mozart.ico"type="image/x-icon"/> 
 
-<link href="css/flutest.css" rel="stylesheet" type="text/css" />
-<link href="css/loader.css" rel="stylesheet" type="text/css" />
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
 <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="js/async.js" type="text/javascript"></script>
@@ -42,7 +42,7 @@
 	<div id="Accordion1" class="Accordion" tabindex="0">
 		<div class="AccordionPanel">
 			<div class="AccordionPanelspecialTab">DIE ZAUBERFLÖTE</div>
-			<div class="AccordionPanelspecialContent" id="sektorZero"><iframe  id="firstIntro" src="sessions/inicio/webgl/index.html"  scrolling="no" frameborder="0" ></iframe></div>
+			<div class="AccordionPanelspecialContent" id="sektorZero"><iframe  id="firstIntro" src="sessions/intro/index.html"  scrolling="no" frameborder="0" ></iframe></div>
 		</div>
 
 		<div class="AccordionPanel" >
