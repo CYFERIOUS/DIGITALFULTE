@@ -87,6 +87,12 @@
 	
 }
 
+@media  (min-width: 1200px) and (max-height: 768px)  {
+	@include big-content(none,none,block,block,block);
+	@include menu-content();
+	
+}
+
 /*/ Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1441px) and (max-height: 900px) {
     @include big-content(none,none,block,block,block);
