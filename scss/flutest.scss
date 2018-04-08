@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@mixin big-content($mobileScroll,$footer1,$footer2,$footer3,$contact){
+@mixin big-content($mobileScroll,$infoDetail,$sizeInfo,$footer1,$footer2,$footer3,$contact){
 	
 	
 			body {
@@ -16,8 +16,9 @@
 					display: $mobileScroll;
 				}
 				.descriptors{
+					display:$infoDetail !important; 
 					color:#666;
-					font-size:18px;
+					font-size:$sizeInfo !important;
 					font-weight:bolder;
 				}
 				
