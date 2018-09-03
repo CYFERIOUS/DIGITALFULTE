@@ -11,7 +11,7 @@
 <link href="../css/menu.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div class="boxShow" align="center"><iframe id="spot2" src = "" frameborder="0" scrolling="no"></iframe><div id="descriptorLearn1"  class="descriptors"></div><p><div id="descriptorLearn2"  class="descriptors"></div></p><p><div id="descriptorLearn3"  class="descriptors"></div></p><p> &lt; <br><a>&#129172; back to menu</a></div>
+<div class="boxShow" align="center"><iframe class="media" id="spot2" src = "" frameborder="0" scrolling="no"></iframe><div id="descriptorLearn1"  class="descriptors"></div><p><div id="descriptorLearn2"  class="descriptors"></div></p><p><div id="descriptorLearn3"  class="descriptors"></div></p><p> &lt; <br><a>&#129172; back to menu</a></div>
 
 <div  class="menuInfo">
  <div class="scrollerTittle"><a>Scroll and click image to see info</a></div>
@@ -24,7 +24,7 @@
 </div>
            
           <div class="container">   
-          <div class="rightMenu learn" data-text="1" data-image="Learn02">Multimedia-Game developed for medicine department of military university nueva granada.
+          <div class="rightMenu learn" data-media="https://www.youtube.com/embed/Wm9vAquyUNQ" data-text="1" data-image="Learn02">Multimedia-Game developed for medicine department of military university nueva granada.
 				<br><a class="imageClick">click please.</a>
 		  </div>
           <div class="leftMenu learn"><input type="image" class="btnOk learn"  data-text="1" data-image="Learn02" src="../images/thumbnails/medicina.jpg" name="Learn02" width="228" height="120" border="0"  /></div>

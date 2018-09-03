@@ -78,7 +78,7 @@
             </div>
             
             <div class="container">
-            <div class="rightMenu info" data-text="8" data-image="Info09">Multimedia and renders made it for this high tech enterprise.
+            <div class="rightMenu info" data-media="https://www.youtube.com/embed/0kzXl5rO3gw" data-text="8" data-image="Info09">Multimedia and renders made it for this high tech enterprise.
 			  <br><a class="imageClick">click  please.</a>
 			</div>
             <div class="leftMenu info"  ><input type="image" class="btnOk info" data-text="8" data-image="Info09" src="../images/thumbnails/virtuo.jpg" data-infoId="8" name="Info09" width="228" height="120" border="0" id="Info09" /></div>
@@ -103,12 +103,7 @@
           <div class="leftMenu info"><input type="image" class="btnOk info"  data-text="11" data-image="Info12" src="../images/thumbnails/caktos.jpg" data-infoId="11" name="Info12" width="228" height="120" border="0" id="Info12" /></div>
            </div>
 	  
-	  	 <div class="container">
-				<div class="rightMenu info" data-text="12" data-image="Info13">banners made it for exclusive channel.
-					  <br><a class="imageClick">click  please.</a>
-				</div>
-          		<div class="leftMenu info" ><input type="image" class="btnOk info"  data-text="12" data-image="Info13" src="../../images/thumbnails/exclusive.jpg" data-infoId="12" name="Info13" width="228" height="120" border="0" id="Info13" /></div>
-          </div>
+	  
             
           <div class="container">
 				<div class="rightMenu info" data-text="12" data-image="Info13">Mark made it for industrial enterprise.
