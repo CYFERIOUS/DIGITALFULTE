@@ -117,7 +117,7 @@
 
 /*/ Extre Extra large devices (large desktops, 1440px and up)*/
 @media (min-width: 1441px) {
-	@include big-content(none,block,18px,none,block,block,block);
+	@include big-content(none,block,14px,none,block,block,block);
 	@include menu-content();
 	
 }

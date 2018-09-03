@@ -13,7 +13,7 @@
 <link href="../css/menu.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
- <div class="boxShow" align="center"><iframe  id="spot1" src = "" frameborder="0" scrolling="no"></iframe><div id="descriptorInfo1" class="descriptors"></div><br><div id="descriptorInfo2" class="descriptors"></div><br><div id="descriptorInfo3" class="descriptors"></div><br> &lt;<a>&#129172; back to menu</a></div>
+ <div class="boxShow" align="center"><iframe class="media"  id="spot1" src = "" frameborder="0" scrolling="no"></iframe><div id="descriptorInfo1" class="descriptors"></div><br><div id="descriptorInfo2" class="descriptors"></div><br><div id="descriptorInfo3" class="descriptors"></div><br> &lt;<a>&#129172; back to menu</a></div>
  
   <div class="menuInfo">
  	<div class="scrollerTittle"><a>Scroll and click image to see info</a></div>
@@ -56,7 +56,7 @@
           </div>
           
           <div class="container">
-              <div class="rightMenu info" data-text="5" data-image="Info06" >Mark and website developed.
+              <div class="rightMenu info" data-media="https://www.youtube.com/embed/4PV8fdvSQyg" data-text="5" data-image="Info06" >Mark and website developed.
 			    <br><a class="imageClick">click  please.</a>
 			  </div>
             <div class="leftMenu info" ><input type="image" class="btnOk info" data-text="5" data-image="Info06" src="../images/thumbnails/ecorinoca.jpg" data-infoId="5" name="Info06" width="228" height="120" border="0" id="Info06" /></div>
@@ -64,7 +64,7 @@
             
             
             <div class="container">
-          	<div class="rightMenu info" data-text="6" data-image="Info07">Video render made it for security enterprise.
+          	<div class="rightMenu info" data-media="https://www.youtube.com/embed/BqUkoFoWnhk" data-text="6" data-image="Info07">Video render made it for security enterprise.
 			  <br><a class="imageClick">click  please.</a>	
 			</div>
             <div class="leftMenu info"><input type="image" class="btnOk info"  data-text="6" data-image="Info07" src="../images/thumbnails/sdsrender.jpg" data-infoId="6" name="Info07" width="228" height="120" border="0" id="Info07" /></div>
@@ -102,12 +102,19 @@
 			</div>
           <div class="leftMenu info"><input type="image" class="btnOk info"  data-text="11" data-image="Info12" src="../images/thumbnails/caktos.jpg" data-infoId="11" name="Info12" width="228" height="120" border="0" id="Info12" /></div>
            </div>
+	  
+	  	 <div class="container">
+				<div class="rightMenu info" data-text="12" data-image="Info13">banners made it for exclusive channel.
+					  <br><a class="imageClick">click  please.</a>
+				</div>
+          		<div class="leftMenu info" ><input type="image" class="btnOk info"  data-text="12" data-image="Info13" src="../../images/thumbnails/exclusive.jpg" data-infoId="12" name="Info13" width="228" height="120" border="0" id="Info13" /></div>
+          </div>
             
-            <div class="container">
-            <div class="rightMenu info" data-text="12" data-image="Info13">Mark made it for industrial enterprise.
-				  <br><a class="imageClick">click  please.</a>
-			</div>
-          <div class="leftMenu info" ><input type="image" class="btnOk info"  data-text="12" data-image="Info13" src="../../images/thumbnails/ferrere.jpg" data-infoId="12" name="Info13" width="228" height="120" border="0" id="Info13" /></div>
+          <div class="container">
+				<div class="rightMenu info" data-text="12" data-image="Info13">Mark made it for industrial enterprise.
+					  <br><a class="imageClick">click  please.</a>
+				</div>
+          		<div class="leftMenu info" ><input type="image" class="btnOk info"  data-text="12" data-image="Info13" src="../../images/thumbnails/ferrere.jpg" data-infoId="12" name="Info13" width="228" height="120" border="0" id="Info13" /></div>
           </div>
 
    </div>

@@ -8,6 +8,21 @@ $(function(){
 	$(".rightMenu").bind('click', {}, cargas);
 	$(".btnOk").bind('click', {}, cargas);
 	
+	var media,place;
+	
+	var iframe = $(".media");
+	iframe.load(function () {
+		iframe.contents().find('img').each(function () {
+			$(this).on('click', function (event) {
+				if(media != null){
+					document.getElementById(place).src = media;
+				}
+			});
+		});
+	});
+	
+
+	
 	function cargas(event){
 		$(".menuInfo").fadeOut();
 		$(".boxShow").show();
@@ -15,16 +30,22 @@ $(function(){
 		if(this.className == 'rightMenu info' || this.className == 'btnOk info' ){
 			var fichasInfo1 = event.target.getAttribute("data-text");
 			var fichasInfo2 = event.target.getAttribute("data-image");
+			media = event.target.getAttribute("data-media");
+			place = "spot1";
 			infoCharge(fichasInfo2,fichasInfo1);
 		}
 		if(this.className=='rightMenu learn'|| this.className == 'btnOk learn'){
 			var fichasLearn1 = event.target.getAttribute("data-text");
 			var fichasLearn2 = event.target.getAttribute("data-image");
+			media = event.target.getAttribute("data-media");
+			place = "spot2";
 			learnCharge(fichasLearn2,fichasLearn1);
 		}
 		if(this.className=='rightMenu fun'|| this.className == 'btnOk fun'){
 			var fichasFun1 = event.target.getAttribute("data-text");
 			var fichasFun2 = event.target.getAttribute("data-image");
+			media = event.target.getAttribute("data-media");
+			place = "spot3";
 			funCharge(fichasFun2,fichasFun1);
 			
 		}

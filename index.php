@@ -22,8 +22,10 @@
 
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+
 <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="js/async.js" type="text/javascript"></script>
+
 <!--ACORDION-->
 <script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
 </head>

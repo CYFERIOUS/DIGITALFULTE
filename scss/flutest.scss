@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: 'cyberfont';
+ 
+  src: url(../fonts/OCRAEXT.TTF)  format('truetype'), /* Safari, Android, iOS */
+      
+}
+
 @mixin big-content($mobileScroll,$infoDetail,$sizeInfo,$footer1,$footer2,$footer3,$contact){
 	
 	
@@ -19,7 +26,8 @@
 					display:$infoDetail !important; 
 					color:#666;
 					font-size:$sizeInfo !important;
-					font-weight:bolder;
+					font-family: "cyberfont";
+					font-weight:200;
 				}
 				
 				#sektorZero{

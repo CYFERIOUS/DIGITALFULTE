@@ -3,7 +3,7 @@
 
  	 {
             "Empresa": "ViveLab-Bogota",
-			"Descripcion":"App developed for mayoralty office, this app classify al bars and pubs in Bogota DC, and show to the client results based on 3 criteria",
+			"Descripcion":"App developed for mayoralty office, this app classify every pub in Bogota DC, and display for client results based on 3 criteria",
 			"Tecnologia":"Titanium Studio SDK"
 	},
 	
@@ -15,7 +15,7 @@
 	
 	 {
             "Empresa": "Garden of Eden",
-			"Descripcion":"App Prototype developed for Alpha Male Club, this app allow to the suscriber to see all content of the wesite by mobile app",
+			"Descripcion":"App Prototype developed for Alpha Male Club, this app allow to the suscriber to see all content of the wesite in mobiles",
 			"Tecnologia":"Phonegap SDK"
 	},
 	
