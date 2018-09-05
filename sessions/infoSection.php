@@ -71,14 +71,14 @@
             </div>
             
             <div class="container">
-         	<div class="rightMenu info" data-text="7" data-image="Info08">Multimedia developed for this company in andina pack fest.
+         	<div class="rightMenu info" data-media="https://www.youtube.com/embed/EYrT72Lqu7s" data-text="7" data-image="Info08">Multimedia developed for this company in andina pack fest.
 				  <br><a class="imageClick">click please.</a>
 			</div>
             <div class="leftMenu info" ><input type="image" class="btnOk info" data-text="7" data-image="Info08" src="../images/thumbnails/sealed.jpg" data-infoId="7" name="Info08" width="228" height="120" border="0" id="Info08" /></div>
             </div>
             
             <div class="container">
-            <div class="rightMenu info" data-media="https://www.youtube.com/embed/0kzXl5rO3gw" data-text="8" data-image="Info09">Multimedia and renders made it for this high tech enterprise.
+            <div class="rightMenu info" data-media="https://www.youtube.com/embed/4mPgGkZhC0k" data-text="8" data-image="Info09">Multimedia and renders made it for this high tech enterprise.
 			  <br><a class="imageClick">click  please.</a>
 			</div>
             <div class="leftMenu info"  ><input type="image" class="btnOk info" data-text="8" data-image="Info09" src="../images/thumbnails/virtuo.jpg" data-infoId="8" name="Info09" width="228" height="120" border="0" id="Info09" /></div>

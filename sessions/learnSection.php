@@ -24,7 +24,7 @@
 </div>
            
           <div class="container">   
-          <div class="rightMenu learn" data-media="https://www.youtube.com/embed/Wm9vAquyUNQ" data-text="1" data-image="Learn02">Multimedia-Game developed for medicine department of military university nueva granada.
+          <div class="rightMenu learn" data-media="https://www.youtube.com/embed/PEMyCSa8TpU" data-text="1" data-image="Learn02">Multimedia-Game developed for medicine department of military university nueva granada.
 				<br><a class="imageClick">click please.</a>
 		  </div>
           <div class="leftMenu learn"><input type="image" class="btnOk learn"  data-text="1" data-image="Learn02" src="../images/thumbnails/medicina.jpg" name="Learn02" width="228" height="120" border="0"  /></div>

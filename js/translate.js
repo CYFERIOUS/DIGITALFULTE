@@ -82,7 +82,14 @@ $(function(){
 		document.getElementById("descriptorFun3").innerHTML = "Technology:  " + datosFun.Desc[ficha].Tecnologia;
 	}
 	$(".boxShow").click(function(){
+		
 		$(".menuInfo").fadeIn();
 		$(".boxShow").hide();
+		var iframe1 = document.getElementById('spot1');
+		iframe1.src = iframe1.src;
+		var iframe2 = document.getElementById('spot2');
+		iframe2.src = iframe2.src;
+		var iframe3 = document.getElementById('spot3');
+		iframe3.src = iframe3.src;
 	});
 });
