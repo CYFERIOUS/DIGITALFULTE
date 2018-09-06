@@ -40,8 +40,8 @@
           </div>
            
             <div class="container">
-          	<div class="rightMenu fun" data-text="3" data-image="Fun05">Proposal of video game interface.
-				<br><a class="imageClick">click please.</a>	
+          	<div class="rightMenu fun" data-media="https://www.youtube.com/embed/BEGdrDBN9OQ" data-text="3" data-image="Fun05">Proposal of video game interface.
+				<br><a class="imageClick">click please.</a>
 			</div>
             <div class="leftMenu"><input type="image" class="btnOk fun" data-text="3" data-image="Fun05" src="../images/thumbnails/cosa1.jpg"  name="Fun05" width="228" height="120" border="0" /></div>
             </div>

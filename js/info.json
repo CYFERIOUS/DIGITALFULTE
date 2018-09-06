@@ -1,5 +1,26 @@
 {	
-      "Desc":[
+    "Desc":[
+	{
+            "Empresa": "DANE : National Department of Statistics",
+			"Descripcion":"Videogame developed for statistic culture campaign against poverty ",
+			"Tecnologia":"Phaser"
+	},
+	{
+            "Empresa": "DANE : National Department of Statistics",
+			"Descripcion":"Dashboard developed with international commissions and cooperation data ",
+			"Tecnologia":"Angular1.7 - bootstrap - D3"
+	},
+		  
+	{
+            "Empresa": "DANE : National Department of Statistics",
+			"Descripcion":"Dashboard developed with national labor demand data ",
+			"Tecnologia":"Angular1.7 - bootstrap - D3"
+	},
+	{
+            "Empresa": "DANE : National Department of Statistics",
+			"Descripcion":"Dashboard developed with agricultural census data ",
+			"Tecnologia":"Angular1.7 - bootstrap - D3"
+	},
 
  	 {
             "Empresa": "ViveLab-Bogota",
