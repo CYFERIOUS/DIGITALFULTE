@@ -9,7 +9,7 @@
 </head>
 
 <body>
-	
+	<div style="overflow-x:auto;">
 	<table>
 		<tr>
 			
@@ -38,7 +38,7 @@
 			
 			
 			
-			<td>
+			<td style="top: 0px;">
 				 
 			 	<form action="sessions/contacto/phpmailer/enviarCorreo.php" method="post" name="form1" id="form1" onsubmit="MM_validateForm('nombres','','R','empresa','','R','email','','RisEmail','ciudad','','R','telefono','','RisNum','mensaje','','R');return document.MM_returnValue">
 				 	Name<br>
@@ -53,7 +53,39 @@
 				 	E-mail<br>
           		 	<input name="email" type="text" size="39" id="email" border="0"/><br>
 				 
-				 	Country<br>
+				 
+				 	Phone<br>
+            			<input name="telefono" type="text" size="40" id="telefono" border="0"/><br>
+					Message:<br>
+            		<textarea name="mensaje"  cols="40" rows="2" id="mensaje" border="0"></textarea><br>
+				
+				 	<h5>All form spaces are required,we dont send massive mail to our costumers</h5>
+					<div class="g-recaptcha" data-sitekey="6LepvUMUAAAAAAYQ6_9ItBa6TFX6CWKl7SL5i-LK"></div>
+				 
+					<input type="submit" name="Submit" value="Send mail"> <input type="reset" name="Submit2" value="Restore" />
+				
+				</form>
+				<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
+		    </td>
+			
+			
+    	
+			
+			
+		</tr>
+	</table>
+</div>
+  
+</body>
+
+	
+</html>
+
+
+
+<!--
+
+	Country<br>
           		
 						<select name="pais" id="pais" border="0">
 							<option value="NoPlace" >:::::::::::::::::::::Choose your country:::::::::::::::::::::</option>
@@ -309,29 +341,4 @@
 				 
 					City<br>
             			<input name="ciudad" type="text" id="ciudad" size="39" border="0" /><br>
-				 	Phone<br>
-            			<input name="telefono" type="text" size="40" id="telefono" border="0"/><br>
-					Message:<br>
-            		<textarea name="mensaje"  cols="40" rows="7" id="mensaje" border="0"></textarea><br>
-				
-				 	<h5>All form spaces are required,we dont send massive mail to our costumers</h5>
-					<div class="g-recaptcha" data-sitekey="6LepvUMUAAAAAAYQ6_9ItBa6TFX6CWKl7SL5i-LK"></div>
-				 
-					<input type="submit" name="Submit" value="Send mail"> <input type="reset" name="Submit2" value="Restore" />
-				
-				</form>
-				<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
-		    </td>
-			
-			
-    	
-			
-			
-		</tr>
-	</table>
-
-  
-</body>
-
-	
-</html>
+-->

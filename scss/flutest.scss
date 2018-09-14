@@ -22,13 +22,7 @@
 				.scrollerTittle{
 					display: $mobileScroll;
 				}
-				.descriptors{
-					display:$infoDetail !important; 
-					color:#666;
-					font-size:$sizeInfo !important;
-					font-family: "cyberfont";
-					font-weight:200;
-				}
+			
 				
 				#sektorZero{
 					width:100%; 
@@ -52,7 +46,6 @@
 					height:500px;
 					background-color:#FFF;
 					cursor:pointer;
-					position:relative;
 					animation:myMove 3s;
 					animation-duration:1s;
 					/* Firefox */
@@ -64,15 +57,46 @@
 					/* Opera */
 					-o-animation:myMove 3s;
 					-o-animation-duration:1s;
+					
+					position: relative;
+    				overflow: hidden;
+    				padding-top: 48vh;
+					
+					.media:hover{
+						cursor: pointer;
+					}
+					.dataDesc{
+						background-color: #012F40;
+						opacity: 0.6;
+						.descriptors{
+							position: relative;
+							display:$infoDetail !important; 
+							color:#03BBFF;
+							font-size:$sizeInfo !important;
+							font-family: "cyberfont";
+							font-weight:200;
+							padding-bottom: 5px;
+						
+						}
+					}
+					
+					
+				
 					a{
-						color: #03b7fa;
+						color: white;
 						font-size:18px;
 						font-weight:bolder;
 
 					}
+					
 					iframe{
+						position: absolute;
+						top: 0;
+						left: 0;
 						width: 100%;
-						height:42vh;
+						height: 100%;
+						border: 0;
+						
 					}
 					
 				}

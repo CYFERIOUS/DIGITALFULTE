@@ -16,6 +16,8 @@ $(function(){
 			$(this).on('click', function (event) {
 				if(media != null){
 					document.getElementById(place).src = media;
+					document.getElementById(place).style.width = "100%";
+					document.getElementById(place).style.height = "50vh";
 				}
 			});
 		});
