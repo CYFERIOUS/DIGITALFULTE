@@ -9,7 +9,7 @@
 </head>
 
 <body>
-	<div style="overflow-x:auto;">
+	
 	<table>
 		<tr>
 			
@@ -38,9 +38,9 @@
 			
 			
 			
-			<td style="top: 0px;">
+			<td>
 				 
-			 	<form action="sessions/contacto/phpmailer/enviarCorreo.php" method="post" name="form1" id="form1" onsubmit="MM_validateForm('nombres','','R','empresa','','R','email','','RisEmail','ciudad','','R','telefono','','RisNum','mensaje','','R');return document.MM_returnValue">
+			 	<form action="sessions/contacto/phpmailer/enviarCorreo.php" method="post" name="form1" id="form1" onsubmit="MM_validateForm('nombres','','R','empresa','','R','email','','RisEmail','ciudad','','R','telefono','','RisNum','mensaje','','R');return document.MM_returnValue" style="height: 500px;">
 				 	Name<br>
           		  	<input name="nombres" type="text" id="nombres" size="39" border="0" /><br>
 				 
@@ -74,7 +74,7 @@
 			
 		</tr>
 	</table>
-</div>
+
   
 </body>
 
