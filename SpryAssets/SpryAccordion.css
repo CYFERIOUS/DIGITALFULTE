@@ -103,8 +103,9 @@
 
 	.AccordionFocused .AccordionPanelOpen .AccordionPanelTab {
 	  background-color: #FFF;
-	  color: #000;
+	  color: #012F40;
 	  font-weight: bolder;
+		font-size: 12px !important;
 	}
 
 @media only screen 

@@ -7,7 +7,7 @@
       
 }
 
-@mixin big-content($mobileScroll,$infoDetail,$sizeInfo,$footer1,$footer2,$footer3,$contact){
+@mixin big-content($mobileScroll,$infoDetail,$sizeInfo,$footer1,$footer2,$footer3,$contact, $girlW, $girlH){
 	
 	
 			body {
@@ -67,7 +67,7 @@
 					}
 					.dataDesc{
 						background-color: #012F40;
-						opacity: 0.6;
+						opacity: 0.9;
 						.descriptors{
 							position: relative;
 							display:$infoDetail !important; 
@@ -139,20 +139,47 @@
 					}
 				}
 				
-				table{
-					background-color:#909EAD;
-					tr {
-    					display: table-row;
-    					vertical-align:middle;
-    					border-color: inherit;
-					}
-					td {
-    					display: table-cell;
-						width: 33%;
-    					vertical-align: inherit;
-					}
+				
+					table{
+						background-color:#909EAD;
+						width: 100%;
 					
-				}
+
+						tr {
+							display: table-row;
+							vertical-align:middle;
+							border-color: inherit;
+						}
+						td {
+							
+						
+							
+							height: auto;
+							display: table-cell;
+							width: 33%;
+							height: inherit;
+						
+							
+								
+								img {
+									
+									width:  $girlW !important;
+									height: $girlH !important;
+								}
+						
+							
+							input[type=text], select, textarea{
+							  width: 100%;
+							  padding: 2px;
+							  border: 1px solid #ccc;
+							  border-radius: 4px;
+							  box-sizing: border-box;
+							  resize: vertical;
+							}
+						}
+
+					}
+				
 	
 			}
 			@-webkit-keyframes myMove

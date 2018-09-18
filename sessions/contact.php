@@ -1,79 +1,83 @@
 <!doctype html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <title>dgflute</title>
 
-
+<style>
+	
+</style>
 
 </head>
 
 <body>
-	
-	<table>
-		<tr>
-			
-			<td>
-				<input type="image" src="../images/thumbnails/contactGirl.png" name="Image1" width="300" height="550" border="0" id="Image1" /><br>
-			</td>
-			
-			<td>
-				
-				 <div style=" text-align: center;">
-					 
-					 <input type="image" src="../images/thumbnails/unitedCyberPunks.png" name="Image1" width="58" height="56" border="0" id="Image1" />
-					<h2>Digital Flute Studio</h2>
-      		
-        			Phone (+57-1) 6 179 108<br>
-        			Cel: (+57-1) 3204744860<br>
-					
-        			<h4>we are a honest studio,<br> we never resell sites.<br> we create, design and<br> programming.<br><br><br></h4>
-					
-					
-					 E-mail:<br><a href="mailto:dgflute@gmail.com">dgflute@gmail.com</a> 
-				</div>
-				
-			</td>
-			
-			
-			
-			
-			<td>
-				 
-			 	<form action="sessions/contacto/phpmailer/enviarCorreo.php" method="post" name="form1" id="form1" onsubmit="MM_validateForm('nombres','','R','empresa','','R','email','','RisEmail','ciudad','','R','telefono','','RisNum','mensaje','','R');return document.MM_returnValue" style="height: 500px;">
-				 	Name<br>
-          		  	<input name="nombres" type="text" id="nombres" size="39" border="0" /><br>
-				 
-				  	Charge<br>
-          		  	<input name="cargo" type="text" id="cargo" size="39" border="0"/><br>
-				 
-				  	Enterprise<br>
-          		 	<input name="empresa" type="text" id="empresa" size="39" border="0"/><br>
-				 
-				 	E-mail<br>
-          		 	<input name="email" type="text" size="39" id="email" border="0"/><br>
-				 
-				 
-				 	Phone<br>
-            			<input name="telefono" type="text" size="40" id="telefono" border="0"/><br>
-					Message:<br>
-            		<textarea name="mensaje"  cols="40" rows="2" id="mensaje" border="0"></textarea><br>
-				
-				 	<h5>All form spaces are required,we dont send massive mail to our costumers</h5>
-					<div class="g-recaptcha" data-sitekey="6LepvUMUAAAAAAYQ6_9ItBa6TFX6CWKl7SL5i-LK"></div>
-				 
-					<input type="submit" name="Submit" value="Send mail"> <input type="reset" name="Submit2" value="Restore" />
-				
-				</form>
-				<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
-		    </td>
-			
-			
-    	
-			
-			
-		</tr>
-	</table>
+
+		<table>
+			<tr>
+
+				<td>
+					<img src="../images/thumbnails/contactGirl.png" alt="digitalFlute" id="chica" >
+				</td>
+
+				<td>
+
+					 <div style=" text-align: center;">
+
+						 <input type="image" src="../images/thumbnails/unitedCyberPunks.png" name="Image1" width="58" height="56" border="0" id="Image1" />
+						<h2>Digital Flute Studio</h2>
+
+						Phone (+57-1) 6 179 108<br>
+						Cel: (+57-1) 3204744860<br>
+
+						<h4>we are a honest studio,<br> we never resell sites.<br> we create, design and<br> programming.<br><br><br></h4>
+
+
+						 E-mail:<br><a href="mailto:dgflute@gmail.com">dgflute@gmail.com</a> 
+					</div>
+
+				</td>
+
+
+
+
+				<td>
+
+					<form action="sessions/contacto/phpmailer/enviarCorreo.php" method="post" name="form1" id="form1" onsubmit="MM_validateForm('nombres','','R','empresa','','R','email','','RisEmail','ciudad','','R','telefono','','RisNum','mensaje','','R');return document.MM_returnValue" style="height: 550px;">
+						Name<br>
+						<input name="nombres" type="text" id="nombres" size="39" border="0" /><br>
+
+						Charge<br>
+						<input name="cargo" type="text" id="cargo" size="39" border="0"/><br>
+
+						Enterprise<br>
+						<input name="empresa" type="text" id="empresa" size="39" border="0"/><br>
+
+						E-mail<br>
+						<input name="email" type="text" size="39" id="email" border="0"/><br>
+
+
+						Phone<br>
+							<input name="telefono" type="text" size="40" id="telefono" border="0"/><br>
+						Message:<br>
+						<textarea name="mensaje"  cols="40" rows="2" id="mensaje" border="0"></textarea><br>
+
+						<h5>All form spaces are required,we dont send massive mail to our costumers</h5>
+						<div class="g-recaptcha" data-sitekey="6LepvUMUAAAAAAYQ6_9ItBa6TFX6CWKl7SL5i-LK"></div>
+
+						<input type="submit" name="Submit" value="Send mail"> <input type="reset" name="Submit2" value="Restore" />
+
+					</form>
+					<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
+				</td>
+
+
+
+
+
+			</tr>
+		</table>
+
 
   
 </body>
