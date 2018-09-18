@@ -1,9 +1,9 @@
-@mixin menu-content(){
+@mixin menu-content($visor){
 	
 
 	.menuInfo{
 		width:970px;
-		height:600px;
+		height:$visor;
 		overflow-y:scroll;
 		
 		.container{
