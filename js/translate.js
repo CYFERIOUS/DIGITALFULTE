@@ -15,13 +15,21 @@ $(function(){
 		iframe.contents().find('img').each(function () {
 			$(this).on('click', function (event) {
 				if(media != null){
-					document.getElementById(place).src = media;
+					$(this).fadeOut();
+					document.getElementById(place).src = media+"?autoplay=1";
 					document.getElementById(place).style.width = "100%";
 					document.getElementById(place).style.height = "50vh";
 				}
 			});
+		$(this).hover(function () {
+			if(media != null){
+				$(this).css("cursor","pointer");
+			}
+			});
 		});
 	});
+	
+	
 	
 
 	
