@@ -1,3 +1,7 @@
 @font-face {
   font-family: 'cyberfont';
   src: url(../fonts/OCRAEXT.TTF) format("truetype"); }
+
+#cubetron canvas {
+  width: 100% !important;
+  height: 100% !important; }

@@ -6,6 +6,13 @@
   src: url(../fonts/OCRAEXT.TTF)  format('truetype'), /* Safari, Android, iOS */
       
 }
+#cubetron{
+	canvas{
+		width: 100% !important;
+		height: 100% !important;
+	}
+	
+}
 
 @mixin big-content($mobileScroll,$infoDetail,$sizeInfo,$footer1,$footer2,$footer3,$contact, $girlW, $girlH){
 	
