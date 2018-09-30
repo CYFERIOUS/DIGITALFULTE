@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Do::Re::Mi::Fa::Sol::La::Si::</title>
+<title>C::D::E::F::G::A::B::</title>
 <!--TITULO MOVEMENT-->
 <script src="js/move.js"></script>
 
@@ -21,7 +21,7 @@
 
 
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
-<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+
 
 <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="js/async.js" type="text/javascript"></script>

@@ -1,21 +1,21 @@
 /*
 Error: Invalid CSS after "				float::left": expected "{", was ";"
-        on line 17 of C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss
+        on line 18 of C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss
 
-12: 			height:120px;
-13: 			&.leftMenu{
-14: 				left:0px;
-15: 				width:228px;
-16: 				height:120px;
-17: 				float::left;
-18: 				border-bottom-width: thin;
-19: 				border-bottom-style: inset;
-20: 				border-bottom-color: #FFF;
-21: 			}
-22: 
+13: 			height:120px;
+14: 			.leftMenu{
+15: 				left:0px;
+16: 				width:228px;
+17: 				height:120px;
+18: 				float::left;
+19: 				border-bottom-width: thin;
+20: 				border-bottom-style: inset;
+21: 				border-bottom-color: #FFF;
+22: 				input{
+23: 					pointer-events: none !important;
 
 Backtrace:
-C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss:17
+C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss:18
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
@@ -56,4 +56,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"				float::left\": expected \"{\", was \";\"\A         on line 17 of C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss\A \A 12: 			height:120px;\A 13: 			&.leftMenu{\A 14: 				left:0px;\A 15: 				width:228px;\A 16: 				height:120px;\A 17: 				float::left;\A 18: 				border-bottom-width: thin;\A 19: 				border-bottom-style: inset;\A 20: 				border-bottom-color: #FFF;\A 21: 			}\A 22: "; }
+  content: "Error: Invalid CSS after \"				float::left\": expected \"{\", was \";\"\A         on line 18 of C:\Users\Familia Nossa\Documents\DIGITALFLUTE\scss\menu.scss\A \A 13: 			height:120px;\A 14: 			.leftMenu{\A 15: 				left:0px;\A 16: 				width:228px;\A 17: 				height:120px;\A 18: 				float::left;\A 19: 				border-bottom-width: thin;\A 20: 				border-bottom-style: inset;\A 21: 				border-bottom-color: #FFF;\A 22: 				input{\A 23: 					pointer-events: none !important;"; }

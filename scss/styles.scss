@@ -2,6 +2,7 @@
 @import 'flutest.scss';
 @import 'menu.scss';
 @import 'loader.scss';
+@import 'SpryAccordion.scss';
 
 
 @include loader();
@@ -14,8 +15,10 @@
   and (-webkit-min-device-pixel-ratio: 2){
 
 	@include big-content(block,none,0px,block,none,none,none,0px,0px);
-	@include menu-content(500px);
-	  
+	@include menu-content(hidden,5%,500px);
+	@include ayombe(250px,600px,980px);
+
+	 
 }
 
 /* iPhone 6 portrait */
@@ -25,7 +28,10 @@
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2){
     @include big-content(block,none,0px,block,none,none,none,0px,0px);
-	@include menu-content(500px);
+	@include menu-content(hidden,5%,500px);
+	@include ayombe(250px,600px,980px);
+
+	 
 	
 }
 
@@ -36,7 +42,9 @@
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 3){
     @include big-content(block,none,0px,block,none,none,none,0px,0px);
-	@include menu-content(500px);
+	@include menu-content(hidden,5%,500px);
+	@include ayombe(250px,600px,980px);
+
 	  
 }
 
@@ -47,7 +55,9 @@
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 3){
 	@include big-content(block,none,0px,block,none,none,none,0px,0px);
-	@include menu-content(500px);
+	@include menu-content(hidden,5%,500px);
+	@include ayombe(250px,600px,980px);
+	
     
 }
 
@@ -57,19 +67,24 @@
   only screen and (max-device-width: 667px),
   only screen and (max-width: 480px){
     @include big-content(block,none,0px,block,none,none,none,0px,0px);
-	@include menu-content(500px);
+	@include menu-content(hidden,5%,500px);
+	@include ayombe(250px,600px,980px);
+	  
 }
 
 /*/ Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
 	@include big-content(block,none,0px,block,none,none,none,0px,0px);
-	@include menu-content(500px);
+	@include menu-content(hidden,5%,500px);
+	@include ayombe(250px,600px,980px);
+	 
 }
 
 /*/ Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) {
 	@include big-content(block,none,0px,block,none,none,none,50%,50%);
-	@include menu-content(500px);
+	@include menu-content(visible,0%,500px);
+	@include ayombe(950px,600px,980px);
 
 	
 }
@@ -77,20 +92,23 @@
 /*/ Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
 	@include big-content(none,block,10px,none,block,block,block,100%,100%);
-	@include menu-content(300px);
+	@include menu-content(visible,0%,300px);
+	@include ayombe(950px,600px,980px);
 	
 }
 
 /*/ Extre Extra large devices (laptops, 1200px and up height 768)*/
 @media  (min-width: 1200px) and (min-height: 768px)  {
 	@include big-content(none,block,10px,none,block,block,block,100%,100%);
-	@include menu-content(500px);
+	@include menu-content(visible,0%,500px);
+	@include ayombe(950px,600px,980px);
 	
 }
 
 @media  (min-width: 1200px) and (max-height: 768px)  {
 	@include big-content(none,block,12px,none,block,block,block,40%,40%);
-	@include menu-content(370px);
+	@include menu-content(visible,0%,370px);
+	@include ayombe(950px,600px,980px);
 	
 	
 }
@@ -101,7 +119,8 @@
 /*/ square devices (large desktops, 1280px and up height 1024)*/
 @media (min-width: 1200px) and (min-height: 1024px) {
     @include big-content(none,block,12px,none,block,block,block,100%,100%);
-	@include menu-content(400px);
+	@include menu-content(visible,0%,400px);
+	@include ayombe(950px,600px,980px);
 		
 }
 
@@ -112,7 +131,8 @@
 
 @media (min-width: 1441px) and (max-height: 900px) {
     @include big-content(none,block,12px,none,block,block,block,80%,80%);
-	@include menu-content(400px);
+	@include menu-content(visible,0%,400px);
+	@include ayombe(950px,600px,980px);
 	
 	
 }
@@ -122,6 +142,7 @@
 /*/ Extre Extra large devices (large desktops, 1440px and up)*/
 @media (min-width: 1441px ) and (min-height: 900px) {
 	@include big-content(none,block,14px,none,block,block,block,100%,100%);
-	@include menu-content(500px);
+	@include menu-content(visible,0%,500px);
+	@include ayombe(950px,600px,980px);
 	
 }
