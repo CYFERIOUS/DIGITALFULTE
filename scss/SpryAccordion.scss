@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 
-@mixin ayombe($tabWidth,$contentWidth,$contentHeight){
+@mixin ayombe($tabWidth,$contentWidth,$contentHeight,$fontTab){
 		.Accordion {
 		  outline:none;
 		  overflow: hidden;
@@ -31,7 +31,7 @@
 		  color: #A5BACC;
 		  width: $tabWidth;
 		  z-index: 2;
-		  font-size: 10px;
+		  font-size: $fontTab;
 		  border-top-style: solid;
 		  border-bottom-style: solid;
 		  border-top-color: #FFFFFF;
