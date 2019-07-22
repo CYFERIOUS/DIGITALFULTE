@@ -7,25 +7,25 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 // Compile Our Sass
-gulp.task('sass', function() {
+gulp.task('sass', () =>  {
     return gulp.src('scss/*.scss')
         .pipe(sass())
         .pipe(gulp.dest('css'));
 });
 
-gulp.task('sassIlustre', function() {
+gulp.task('sassIlustre',() => {
     return gulp.src('scss/ilustreDevices.scss')
         .pipe(sass())
         .pipe(gulp.dest('sessions/ilustre/ferchoFolio/css/'));
 });
 
-gulp.task('chinoPopo', function() {
+gulp.task('chinoPopo', () => {
     return gulp.src('scss/ilustreDevices.scss')
         .pipe(sass())
         .pipe(gulp.dest('sessions/ilustre/kamusFolio/css/'));
 });
 
-gulp.task('sassAcordion', function() {
+gulp.task('sassAcordion', () => {
     return gulp.src('scss/SpryAccordion.scss')
         .pipe(sass())
         .pipe(gulp.dest('SpryAssets'));
@@ -33,9 +33,9 @@ gulp.task('sassAcordion', function() {
 
 
 // Watch Files For Changes
-gulp.task('watch', function() {
+gulp.task('watch', () => {
     gulp.watch('scss/*.scss','sessions/ilustre/ferchoFolio/scss/*.scss'['sass','sassAcordion','sassIlustre','chinoPopo']);
 });
 
 // Default Task
-gulp.task('default', [ 'sass','watch','sassAcordion','sassIlustre','chinoPopo']);
+gulp.task('default', gulp.parallel( 'sass','watch','sassAcordion','sassIlustre','chinoPopo'));
